@@ -1,0 +1,416 @@
+{
+  "parties": [
+    {
+      "id": 1,
+      "kind": "申立人",
+      "name": "大村学",
+      "address": "東京都新宿区○○1-1",
+      "claimedTotal": null,
+      "courtKind": "簡裁",
+      "courtLabel": "東京簡易裁判所",
+      "courtKey": "東京簡易裁判所",
+      "lat": 35.67511,
+      "lon": 139.752594,
+      "isGov": false
+    },
+    {
+      "id": 2,
+      "kind": "相手方",
+      "name": "小池亮",
+      "address": "東京都八王子市○○2-2",
+      "claimedTotal": null,
+      "courtKind": "簡裁",
+      "courtLabel": "八王子簡易裁判所",
+      "courtKey": "八王子簡易裁判所",
+      "lat": 35.66,
+      "lon": 139.345459,
+      "isGov": false
+    },
+    {
+      "id": 3,
+      "kind": "相手方",
+      "name": "堀由美",
+      "address": "東京都立川市○○3-3",
+      "claimedTotal": null,
+      "courtKind": "簡裁",
+      "courtLabel": "立川簡易裁判所",
+      "courtKey": "立川簡易裁判所",
+      "lat": 35.712479,
+      "lon": 139.40863,
+      "isGov": false
+    }
+  ],
+  "header": {
+    "caseNoMo": "令和８年（モ）第４０１号",
+    "courtName": "東京地方裁判所",
+    "division": "民事第１部",
+    "clerk": "試験一郎",
+    "issueDay": null
+  },
+  "instances": [
+    {
+      "id": 1,
+      "rank": 1,
+      "name": "第一審",
+      "caseNo": "令和６年（ワ）第４０１号",
+      "start": "2024-04-08",
+      "venueKind": "",
+      "venueLabel": "",
+      "venueKey": "",
+      "venueLat": 0,
+      "venueLon": 0,
+      "filingDate": ""
+    },
+    {
+      "id": 2,
+      "rank": 2,
+      "name": "控訴審",
+      "caseNo": "令和７年（ネ）第４０１号",
+      "start": "2025-01-20",
+      "venueKind": "",
+      "venueLabel": "",
+      "venueKey": "",
+      "venueLat": 0,
+      "venueLon": 0,
+      "filingDate": ""
+    }
+  ],
+  "attendees": [],
+  "pools": [
+    {
+      "id": 1,
+      "instanceId": 1,
+      "kind": "本体",
+      "name": "第一審の訴訟費用"
+    },
+    {
+      "id": 2,
+      "instanceId": 2,
+      "kind": "本体",
+      "name": "控訴審の訴訟費用"
+    }
+  ],
+  "partyPools": [],
+  "opponentScopes": [
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "opponentId": 2,
+      "included": true
+    },
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "opponentId": 3,
+      "included": true
+    },
+    {
+      "poolId": 1,
+      "partyId": 2,
+      "opponentId": 1,
+      "included": true
+    },
+    {
+      "poolId": 1,
+      "partyId": 2,
+      "opponentId": 3,
+      "included": false
+    }
+  ],
+  "claims": [
+    {
+      "instanceId": 1,
+      "from": 1,
+      "to": 2,
+      "amount": 1000000
+    },
+    {
+      "instanceId": 1,
+      "from": 1,
+      "to": 3,
+      "amount": 2000000
+    }
+  ],
+  "rulings": [
+    {
+      "id": 1,
+      "rulingInstanceId": 1,
+      "poolId": 1,
+      "scopePools": "1",
+      "scopeParties": "1,2,3"
+    },
+    {
+      "id": 2,
+      "rulingInstanceId": 2,
+      "poolId": 2,
+      "scopePools": "1,2",
+      "scopeParties": "1,2"
+    }
+  ],
+  "obligations": [
+    {
+      "id": 1,
+      "rulingId": 1,
+      "column": 1,
+      "num": 1,
+      "den": 1,
+      "mode": "split",
+      "obligors": "1"
+    },
+    {
+      "id": 2,
+      "rulingId": 1,
+      "column": 2,
+      "num": 1,
+      "den": 1,
+      "mode": "split",
+      "obligors": "1"
+    },
+    {
+      "id": 3,
+      "rulingId": 1,
+      "column": 3,
+      "num": 1,
+      "den": 1,
+      "mode": "split",
+      "obligors": "1"
+    },
+    {
+      "id": 4,
+      "rulingId": 2,
+      "column": 1,
+      "num": 1,
+      "den": 1,
+      "mode": "split",
+      "obligors": "2"
+    },
+    {
+      "id": 5,
+      "rulingId": 2,
+      "column": 2,
+      "num": 1,
+      "den": 1,
+      "mode": "split",
+      "obligors": "2"
+    }
+  ],
+  "costs": [
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "item": 1,
+      "segNo": 1,
+      "amount": 20000,
+      "label": "手数料",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "segNo": 1,
+      "amount": 10000,
+      "label": "訴状副本等送達費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 2,
+      "item": 2,
+      "segNo": 1,
+      "amount": 4500,
+      "label": "証人旅費及び日当",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 2,
+      "item": 6,
+      "segNo": 1,
+      "amount": 1500,
+      "label": "書類の作成及び提出の費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 3,
+      "item": 2,
+      "segNo": 1,
+      "amount": 4500,
+      "label": "証人旅費及び日当",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 3,
+      "item": 6,
+      "segNo": 1,
+      "amount": 1500,
+      "label": "書類の作成及び提出の費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 2,
+      "partyId": 1,
+      "item": 1,
+      "segNo": 1,
+      "amount": 10000,
+      "label": "手数料",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 2,
+      "partyId": 1,
+      "item": 2,
+      "segNo": 1,
+      "amount": 3500,
+      "label": "控訴状副本等送達費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 2,
+      "partyId": 1,
+      "item": 6,
+      "segNo": 1,
+      "amount": 1500,
+      "label": "書類の作成及び提出の費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 2,
+      "partyId": 2,
+      "item": 2,
+      "segNo": 1,
+      "amount": 2500,
+      "label": "証人旅費及び日当",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 2,
+      "partyId": 2,
+      "item": 6,
+      "segNo": 1,
+      "amount": 1500,
+      "label": "書類の作成及び提出の費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    }
+  ],
+  "freeRows": [
+    {
+      "id": 1,
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "label": "訴状副本等送達費用",
+      "amount": 10000,
+      "appCost": false,
+      "relatedId": 0
+    },
+    {
+      "id": 2,
+      "poolId": 1,
+      "partyId": 2,
+      "item": 2,
+      "label": "証人旅費及び日当",
+      "amount": 4500,
+      "appCost": false,
+      "relatedId": 0
+    },
+    {
+      "id": 3,
+      "poolId": 1,
+      "partyId": 3,
+      "item": 2,
+      "label": "証人旅費及び日当",
+      "amount": 4500,
+      "appCost": false,
+      "relatedId": 0
+    },
+    {
+      "id": 4,
+      "poolId": 2,
+      "partyId": 1,
+      "item": 2,
+      "label": "控訴状副本等送達費用",
+      "amount": 3500,
+      "appCost": false,
+      "relatedId": 0
+    },
+    {
+      "id": 5,
+      "poolId": 2,
+      "partyId": 2,
+      "item": 2,
+      "label": "証人旅費及び日当",
+      "amount": 2500,
+      "appCost": false,
+      "relatedId": 0
+    }
+  ],
+  "selectedItems": [
+    {
+      "poolId": 1,
+      "item": 1
+    },
+    {
+      "poolId": 1,
+      "item": 2
+    },
+    {
+      "poolId": 1,
+      "item": 6
+    },
+    {
+      "poolId": 2,
+      "item": 1
+    },
+    {
+      "poolId": 2,
+      "item": 2
+    },
+    {
+      "poolId": 2,
+      "item": 6
+    }
+  ],
+  "hearings": [],
+  "attendance": [],
+  "inst500": [],
+  "options": {
+    "opponentMode": "none",
+    "opponentIds": ""
+  }
+}

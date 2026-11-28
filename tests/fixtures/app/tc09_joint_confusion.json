@@ -1,0 +1,28 @@
+{
+  "title": "TC-09 訴訟費用は被告B及び被告Cの連帯負担とする（被告ら自身の費用は自己負担）",
+  "parties": [
+    { "id": 1, "kind": "申立人", "name": "原告A" },
+    { "id": 2, "kind": "相手方", "name": "被告B" },
+    { "id": 3, "kind": "相手方", "name": "被告C" }
+  ],
+  "instances": [{ "id": 1, "rank": 1, "name": "第一審", "start": "2024-02-01" }],
+  "pools": [{ "id": 1, "instanceId": 1, "kind": "本体", "name": "第一審の訴訟費用" }],
+  "rulings": [
+    {
+      "id": 1, "rulingInstanceId": 1, "scopePools": [1], "scopeParties": [1, 2, 3],
+      "_note": "訴訟費用は被告B及び被告Cの連帯負担とする",
+      "obligations": [
+        { "column": 1, "num": 1, "den": 1, "obligors": [2, 3] },
+        { "column": 2, "num": 1, "den": 1, "obligors": [2, 3] },
+        { "column": 3, "num": 1, "den": 1, "obligors": [2, 3] }
+      ]
+    }
+  ],
+  "costs": [
+    { "poolId": 1, "partyId": 1, "item": 1, "amount": 20000, "label": "訴え提起手数料" },
+    { "poolId": 1, "partyId": 1, "item": 6, "amount": 10000, "label": "書類の作成及び提出" },
+    { "poolId": 1, "partyId": 2, "item": 6, "amount": 12000, "label": "書類の作成及び提出" },
+    { "poolId": 1, "partyId": 3, "item": 6, "amount": 8000,  "label": "書類の作成及び提出" }
+  ],
+  "options": { "opponentMode": "none", "opponentIds": [] }
+}

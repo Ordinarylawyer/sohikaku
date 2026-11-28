@@ -1,0 +1,316 @@
+{
+  "parties": [
+    {
+      "id": 1,
+      "kind": "申立人",
+      "name": "原田誠",
+      "address": "横浜市中区○○町1-1",
+      "claimedTotal": null,
+      "courtKind": "簡裁",
+      "courtLabel": "横浜簡易裁判所",
+      "courtKey": "横浜簡易裁判所",
+      "lat": 35.446644,
+      "lon": 139.641769,
+      "isGov": false
+    },
+    {
+      "id": 2,
+      "kind": "相手方",
+      "name": "木下保",
+      "address": "川崎市川崎区○○町2-2",
+      "claimedTotal": null,
+      "courtKind": "簡裁",
+      "courtLabel": "川崎簡易裁判所",
+      "courtKey": "川崎簡易裁判所",
+      "lat": 35.529778,
+      "lon": 139.71022,
+      "isGov": false
+    },
+    {
+      "id": 3,
+      "kind": "相手方",
+      "name": "杉本渉",
+      "address": "相模原市中央区○○3-3",
+      "claimedTotal": null,
+      "courtKind": "簡裁",
+      "courtLabel": "相模原簡易裁判所",
+      "courtKey": "相模原簡易裁判所",
+      "lat": 35.569454,
+      "lon": 139.375763,
+      "isGov": false
+    }
+  ],
+  "header": {
+    "caseNoMo": "令和８年（モ）第６０１号",
+    "courtName": "東京地方裁判所",
+    "division": "民事第１部",
+    "clerk": "試験一郎",
+    "issueDay": null
+  },
+  "instances": [
+    {
+      "id": 1,
+      "rank": 1,
+      "name": "第一審",
+      "caseNo": "令和７年（ワ）第６０１号",
+      "start": "2025-02-03",
+      "venueKind": "",
+      "venueLabel": "",
+      "venueKey": "",
+      "venueLat": 0,
+      "venueLon": 0,
+      "filingDate": ""
+    }
+  ],
+  "attendees": [],
+  "pools": [
+    {
+      "id": 1,
+      "instanceId": 1,
+      "kind": "本体",
+      "name": "第一審の訴訟費用"
+    }
+  ],
+  "partyPools": [],
+  "opponentScopes": [],
+  "claims": [
+    {
+      "instanceId": 1,
+      "from": 1,
+      "to": 2,
+      "amount": 1200000
+    },
+    {
+      "instanceId": 1,
+      "from": 1,
+      "to": 3,
+      "amount": 1800000
+    }
+  ],
+  "rulings": [
+    {
+      "id": 1,
+      "rulingInstanceId": 1,
+      "poolId": 1,
+      "scopePools": "1",
+      "scopeParties": "1,2,3"
+    }
+  ],
+  "obligations": [
+    {
+      "id": 1,
+      "rulingId": 1,
+      "column": 1,
+      "num": 1,
+      "den": 4,
+      "mode": "split",
+      "obligors": "1"
+    },
+    {
+      "id": 2,
+      "rulingId": 1,
+      "column": 1,
+      "num": 3,
+      "den": 4,
+      "mode": "split",
+      "obligors": "2,3"
+    },
+    {
+      "id": 3,
+      "rulingId": 1,
+      "column": 2,
+      "num": 1,
+      "den": 4,
+      "mode": "split",
+      "obligors": "1"
+    },
+    {
+      "id": 4,
+      "rulingId": 1,
+      "column": 2,
+      "num": 3,
+      "den": 4,
+      "mode": "split",
+      "obligors": "2,3"
+    },
+    {
+      "id": 5,
+      "rulingId": 1,
+      "column": 3,
+      "num": 1,
+      "den": 4,
+      "mode": "split",
+      "obligors": "1"
+    },
+    {
+      "id": 6,
+      "rulingId": 1,
+      "column": 3,
+      "num": 3,
+      "den": 4,
+      "mode": "split",
+      "obligors": "2,3"
+    }
+  ],
+  "costs": [
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "item": 1,
+      "segNo": 1,
+      "amount": 20000,
+      "label": "手数料",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "segNo": 1,
+      "amount": 3300,
+      "label": "訴状副本等送達費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "segNo": 1,
+      "amount": 1100,
+      "label": "判決正本送達費用（相手方木下保）",
+      "relatedPartyId": 2,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "segNo": 1,
+      "amount": 1100,
+      "label": "判決正本送達費用（相手方杉本渉）",
+      "relatedPartyId": 3,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 1,
+      "item": 6,
+      "segNo": 1,
+      "amount": 1500,
+      "label": "書類の作成及び提出の費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 2,
+      "item": 6,
+      "segNo": 1,
+      "amount": 1500,
+      "label": "書類の作成及び提出の費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 3,
+      "item": 2,
+      "segNo": 1,
+      "amount": 4000,
+      "label": "証人旅費及び日当",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    },
+    {
+      "poolId": 1,
+      "partyId": 3,
+      "item": 6,
+      "segNo": 1,
+      "amount": 1500,
+      "label": "書類の作成及び提出の費用",
+      "relatedPartyId": 0,
+      "payerKey": "",
+      "appCost": false,
+      "sortKey": 0
+    }
+  ],
+  "freeRows": [
+    {
+      "id": 1,
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "label": "訴状副本等送達費用",
+      "amount": 3300,
+      "appCost": false,
+      "relatedId": 0
+    },
+    {
+      "id": 2,
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "label": "判決正本送達費用（相手方木下保）",
+      "amount": 1100,
+      "appCost": false,
+      "relatedId": 2
+    },
+    {
+      "id": 3,
+      "poolId": 1,
+      "partyId": 1,
+      "item": 2,
+      "label": "判決正本送達費用（相手方杉本渉）",
+      "amount": 1100,
+      "appCost": false,
+      "relatedId": 3
+    },
+    {
+      "id": 4,
+      "poolId": 1,
+      "partyId": 3,
+      "item": 2,
+      "label": "証人旅費及び日当",
+      "amount": 4000,
+      "appCost": false,
+      "relatedId": 0
+    }
+  ],
+  "selectedItems": [
+    {
+      "poolId": 1,
+      "item": 1
+    },
+    {
+      "poolId": 1,
+      "item": 2
+    },
+    {
+      "poolId": 1,
+      "item": 6
+    }
+  ],
+  "hearings": [],
+  "attendance": [],
+  "inst500": [],
+  "options": {
+    "opponentMode": "none",
+    "opponentIds": ""
+  }
+}

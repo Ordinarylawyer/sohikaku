@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<!-- 入力を外に出さないための約束: 外部との通信（fetch・XHR・WebSocket 等）を禁止し、読み込むのはこのサイトのファイルだけにする -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>訴訟費用額計算機</title>
+<meta name="description" content="訴訟費用額確定処分（民訴法71条）の計算。ブラウザの中だけで動き、入力した情報をどこにも送りません。">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">訴訟費用額計算機</div>
+  <div class="right"><span id="mver" class="mver"></span><span id="stepname" class="stepname"></span></div>
+</header>
+<nav id="stepbar" class="stepbar" aria-label="STEP"></nav>
+<p class="privacy">入力した情報はこのブラウザの中だけで扱います。サーバーへの送信・保存も、サーバーからのデータの取得もしません（閉じると消えます）。続きをするときは STEP 10 で JSON を保存し、STEP 1 で読み込みます（詳しくは STEP 1・10 の「入力内容の扱いと、JSON による保存・復元について」）。</p>
+<main id="app" aria-live="polite"><noscript>JavaScript を有効にしてください。</noscript></main>
+<p class="license">© 2026 Ordinarylawyer ／ プログラム: <a href="https://github.com/Ordinarylawyer/sohikaku/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a> ／ データ: <a href="https://github.com/Ordinarylawyer/sohikaku/blob/main/LICENSE-DATA.md" target="_blank" rel="noopener noreferrer">CC0 1.0</a> ／ 同梱: JSZip 3.10.1（<a href="vendor/jszip.LICENSE.md" target="_blank" rel="noopener noreferrer">MIT</a>） ／ <a class="repo" href="https://github.com/Ordinarylawyer/sohikaku" target="_blank" rel="noopener noreferrer">GitHub（ソース・データ・誤りの報告と改善の提案）</a></p>
+<p class="license">誤りの報告・改善の提案は、<a href="https://github.com/Ordinarylawyer/sohikaku/issues/new/choose" target="_blank" rel="noopener noreferrer">GitHub の Issue</a> へお寄せください（各画面の「この画面について」の末尾からも開けます）。事件の当事者名・住所・事件番号など、個別の事件を特定できる情報は書かないでください。</p>
+<footer id="footer" class="footer"></footer>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<script src="js/engine/core.js"></script>
+<script src="js/engine/cost.js"></script>
+<script src="js/engine/report.js"></script>
+<script src="js/engine/rate.js"></script>
+<script src="js/engine/casejson.js"></script>
+<script src="js/data/masters.js"></script>
+<script src="js/data/template.js"></script>
+<script src="vendor/jszip.min.js"></script>
+<script src="js/app/util.js"></script>
+<script src="js/app/state.js"></script>
+<script src="js/app/main.js"></script>
+<script src="js/app/court.js"></script>
+<script src="js/app/help.js"></script>
+<script src="js/app/excel.js"></script>
+<script src="js/app/word.js"></script>
+<script src="js/app/steps/s01.js"></script>
+<script src="js/app/steps/s02.js"></script>
+<script src="js/app/steps/s03.js"></script>
+<script src="js/app/steps/s04.js"></script>
+<script src="js/app/steps/s05.js"></script>
+<script src="js/app/steps/s06.js"></script>
+<script src="js/app/steps/s07.js"></script>
+<script src="js/app/steps/s08.js"></script>
+<script src="js/app/steps/s09.js"></script>
+<script src="js/app/steps/s10.js"></script>
+</body>
+</html>

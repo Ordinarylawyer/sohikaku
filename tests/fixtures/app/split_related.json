@@ -1,0 +1,32 @@
+{
+  "title": "分割負担（被告らの負担）で、特定の被告にだけ係る費用がある例（B説の確認用。数字は架空）",
+  "parties": [
+    { "id": 1, "kind": "申立人", "name": "原告X" },
+    { "id": 2, "kind": "相手方", "name": "被告Y1" },
+    { "id": 3, "kind": "相手方", "name": "被告Y2" }
+  ],
+  "instances": [{ "id": 1, "rank": 1, "name": "第一審", "start": "2025-06-02" }],
+  "pools": [{ "id": 1, "instanceId": 1, "kind": "本体", "name": "第一審の訴訟費用" }],
+  "claims": [
+    { "instanceId": 1, "from": 1, "to": 2, "amount": 3000000 },
+    { "instanceId": 1, "from": 1, "to": 3, "amount": 1000000 }
+  ],
+  "rulings": [
+    {
+      "id": 1, "rulingInstanceId": 1, "scopePools": [1], "scopeParties": [1, 2, 3],
+      "_note": "訴訟費用は被告らの負担とする（65条1項本文＝分割）",
+      "obligations": [
+        { "column": 1, "num": 1, "den": 1, "obligors": [2, 3], "mode": "split" },
+        { "column": 2, "num": 1, "den": 1, "obligors": [2, 3], "mode": "split" },
+        { "column": 3, "num": 1, "den": 1, "obligors": [2, 3], "mode": "split" }
+      ]
+    }
+  ],
+  "costs": [
+    { "poolId": 1, "partyId": 1, "item": 1, "amount": 20000, "label": "訴え提起手数料" },
+    { "poolId": 1, "partyId": 1, "item": 6, "amount": 1500,  "label": "書類の作成及び提出" },
+    { "poolId": 1, "partyId": 1, "item": 2, "amount": 2000,  "label": "被告Y1への送達", "relatedPartyId": 2 }
+  ],
+  "options": { "opponentMode": "none", "claimedTotals": { "1": 23500 } },
+  "_expected": "被告Y1 17,750円（手数料15,000＋書類750＋送達2,000）／被告Y2 5,750円（手数料5,000＋書類750）"
+}

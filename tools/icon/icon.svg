@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#dcefff"/>
+  <!-- きらきら -->
+  <g fill="#f5c518">
+    <path d="M70 120 l10 -26 l10 26 l26 10 l-26 10 l-10 26 l-10 -26 l-26 -10z"/>
+    <path d="M430 360 l7 -18 l7 18 l18 7 l-18 7 l-7 18 l-7 -18 l-18 -7z"/>
+  </g>
+  <!-- 影 -->
+  <ellipse cx="256" cy="452" rx="150" ry="18" fill="#b9d6ec"/>
+  <!-- 腕 -->
+  <g stroke="#5a3d2b" stroke-width="12" stroke-linecap="round" fill="none">
+    <path d="M128 300 q-40 -10 -50 -60"/>
+    <path d="M384 300 q40 -6 46 -56"/>
+  </g>
+  <circle cx="76" cy="232" r="20" fill="#f6c85f" stroke="#5a3d2b" stroke-width="10"/>
+  <circle cx="432" cy="236" r="20" fill="#f6c85f" stroke="#5a3d2b" stroke-width="10"/>
+  <!-- 電卓の体 -->
+  <rect x="120" y="70" width="272" height="370" rx="44" fill="#f6c85f" stroke="#5a3d2b" stroke-width="12"/>
+  <!-- 表示窓 -->
+  <rect x="150" y="100" width="212" height="70" rx="14" fill="#ffffff" stroke="#5a3d2b" stroke-width="8"/>
+  <text x="256" y="152" text-anchor="middle" font-family="Noto Sans CJK JP, Noto Sans CJK TC, sans-serif" font-weight="700" font-size="44" fill="#3b2a1e">訴訟費用</text>
+  <!-- 顔 -->
+  <circle cx="208" cy="218" r="11" fill="#3b2a1e"/>
+  <circle cx="304" cy="218" r="11" fill="#3b2a1e"/>
+  <ellipse cx="180" cy="248" rx="18" ry="10" fill="#f59ab0" opacity="0.8"/>
+  <ellipse cx="332" cy="248" rx="18" ry="10" fill="#f59ab0" opacity="0.8"/>
+  <path d="M232 252 q8 -8 16 0 q8 8 16 0 q8 -8 16 0" stroke="#3b2a1e" stroke-width="7" fill="none" stroke-linecap="round" transform="translate(-16 0)"/>
+  <!-- 汗 -->
+  <path d="M372 150 q16 26 0 36 q-16 -10 0 -36z" fill="#5fb4f0" stroke="#2f7fbf" stroke-width="4"/>
+  <!-- ボタン -->
+  <g fill="#ffffff" stroke="#5a3d2b" stroke-width="6">
+    <rect x="158" y="292" width="50" height="38" rx="10"/>
+    <rect x="231" y="292" width="50" height="38" rx="10"/>
+    <rect x="304" y="292" width="50" height="38" rx="10" fill="#f4845f"/>
+    <rect x="158" y="346" width="50" height="38" rx="10"/>
+    <rect x="231" y="346" width="50" height="38" rx="10"/>
+    <rect x="304" y="346" width="50" height="38" rx="10" fill="#f4845f"/>
+  </g>
+  <text x="329" y="324" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="28" fill="#ffffff">＋</text>
+  <text x="329" y="378" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="28" fill="#ffffff">＝</text>
+  <!-- 円の硬貨 -->
+  <circle cx="440" cy="120" r="40" fill="#f5c518" stroke="#a87b00" stroke-width="8"/>
+  <text x="440" y="136" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="46" fill="#7a5600">¥</text>
+</svg>

@@ -1,0 +1,4007 @@
+[
+  {
+    "file": "split_related.json",
+    "Normalized": [
+      "2->1:17750",
+      "3->1:5750"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [],
+    "Decree": [
+      "1　相手方被告Y1は、申立人に対し、１万７７５０円を支払え。",
+      "2　相手方被告Y2は、申立人に対し、５７５０円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "訴え提起手数料",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "被告Y1への送達",
+        "Amount": 2000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "書類の作成及び提出",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 5,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 23500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 6,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方被告Y1及び相手方被告Y2負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 7,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "（相手方被告Y1関係分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "訴え提起手数料　20,000円のうち",
+        "Amount": 15000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 9,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "被告Y1への送達",
+        "Amount": 2000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 10,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "書類の作成及び提出　1,500円のうち",
+        "Amount": 750,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 11,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "17,750円×1／1",
+        "Amount": 17750,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "（相手方被告Y2関係分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "訴え提起手数料　20,000円のうち",
+        "Amount": 5000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "書類の作成及び提出　1,500円のうち",
+        "Amount": 750,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 15,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "5,750円×1／1",
+        "Amount": 5750,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 23500
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "tc06.json",
+    "Normalized": [
+      "2->1:26667"
+    ],
+    "NotOrdered": [
+      "1->3:6000"
+    ],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [],
+    "Decree": [
+      "相手方被告Aは、申立人に対し、２万６６６７円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　訴え提起手数料 訴額300万円",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　書類の作成及び提出",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "控訴費用　控訴提起手数料",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 5,
+        "Kind": "item",
+        "No": 4,
+        "Text": "控訴費用　書類の作成及び提出",
+        "Amount": 5000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 6,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 45000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 7,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方被告A負担分・第一審の訴訟費用・控訴費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "第一審の訴訟費用　訴え提起手数料 訴額300万円　20,000円のうち相手方被告A関係分",
+        "Amount": 6667,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 9,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "第一審の訴訟費用　書類の作成及び提出　10,000円のうち相手方被告A関係分",
+        "Amount": 5000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 10,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "控訴費用　控訴提起手数料",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 11,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "控訴費用　書類の作成及び提出",
+        "Amount": 5000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "26,667円×1／1",
+        "Amount": 26667,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方被告A分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　書類の作成及び提出",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 15,
+        "Kind": "item",
+        "No": 2,
+        "Text": "控訴費用　書類の作成及び提出",
+        "Amount": 4000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 16,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 17,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方被告B分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 18,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　書類の作成及び提出",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 19,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 20,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 21,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "6,000円×1／1",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 30000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 6000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 3,
+        "Name": "小計",
+        "Amount": 6000
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 15000
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 4000
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "tc08_partial_joint.json",
+    "Normalized": [
+      "2->1:10000",
+      "2+3->1:10000",
+      "3->1:10000"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [],
+    "Decree": [
+      "1　相手方被告Yは、申立人に対し、２万円（ただし、内１万円の限度で、相手方被告Zと連帯して）を支払え。",
+      "2　相手方被告Zは、申立人に対し、２万円（ただし、内１万円の限度で、相手方被告Yと連帯して）を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "訴え提起手数料",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "書類の作成及び提出",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 4,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 40000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 5,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方被告Y負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 6,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "40,000円×1／4",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 7,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方被告Y及び相手方被告Z負担分）（連帯）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "40,000円×1／4",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 9,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方被告Z負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 10,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "40,000円×1／4",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 40000
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "tc09_joint_confusion.json",
+    "Normalized": [
+      "2+3->1:30000"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [],
+    "Decree": [
+      "相手方被告B及び相手方被告Cは、連帯して、申立人に対し、３万円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "訴え提起手数料",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "書類の作成及び提出",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 4,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 30000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 5,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方被告B及び相手方被告C負担分）（連帯）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 6,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "30,000円×1／1",
+        "Amount": 30000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 7,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方被告B分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "item",
+        "No": 1,
+        "Text": "書類の作成及び提出",
+        "Amount": 12000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 9,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 12000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 10,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方被告C分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 11,
+        "Kind": "item",
+        "No": 1,
+        "Text": "書類の作成及び提出",
+        "Amount": 8000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 12,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 8000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 30000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 12000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 3,
+        "Name": "小計",
+        "Amount": 8000
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "事件A.json",
+    "Normalized": [
+      "2->1:48934"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [
+      "相殺 (1,2): 対当額 14616 円",
+      "  充当: 債権者2 債務者1（単独債務）-14616 -> 0",
+      "  充当: 債権者1 債務者2（単独債務）-14616 -> 48934"
+    ],
+    "Decree": [
+      "相手方は、申立人に対し、４万８９３４円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　訴え提起手数料",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　訴状副本等送達費用",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "第一審の訴訟費用　期日呼出費用",
+        "Amount": 1200,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 5,
+        "Kind": "item",
+        "No": 4,
+        "Text": "第一審の訴訟費用　送達費用（追加予納）",
+        "Amount": 800,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 6,
+        "Kind": "item",
+        "No": 5,
+        "Text": "第一審の訴訟費用　証人旅費及び日当",
+        "Amount": 7600,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 7,
+        "Kind": "item",
+        "No": 6,
+        "Text": "第一審の訴訟費用　調査嘱託費用",
+        "Amount": 2000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 8,
+        "Kind": "item",
+        "No": 7,
+        "Text": "第一審の訴訟費用　判決正本送達費用",
+        "Amount": 1100,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 9,
+        "Kind": "item",
+        "No": 8,
+        "Text": "第一審の訴訟費用　証人呼出費用",
+        "Amount": 1300,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 10,
+        "Kind": "item",
+        "No": 9,
+        "Text": "第一審の訴訟費用　申立人本人出頭日当及び旅費（第1回尋問）",
+        "Amount": 4760,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 11,
+        "Kind": "item",
+        "No": 10,
+        "Text": "第一審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第1回、第2回）",
+        "Amount": 9520,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 12,
+        "Kind": "item",
+        "No": 11,
+        "Text": "第一審の訴訟費用　申立人代理人弁論準備手続期日出頭日当及び旅費（第1回、第2回、第3回）",
+        "Amount": 12660,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 13,
+        "Kind": "item",
+        "No": 12,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 14,
+        "Kind": "item",
+        "No": 13,
+        "Text": "第一審の訴訟費用　官庁等からの書類交付費用",
+        "Amount": 1528,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑦、民訴費用規２の３"
+      },
+      {
+        "Seq": 15,
+        "Kind": "item",
+        "No": 14,
+        "Text": "控訴審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第1回） 区間1：2021/01/18〜",
+        "Amount": 4760,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 16,
+        "Kind": "item",
+        "No": 15,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 17,
+        "Kind": "sub",
+        "No": 0,
+        "Text": "（以上の小計）",
+        "Amount": 78228,
+        "Paren": true,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 18,
+        "Kind": "item",
+        "No": 16,
+        "Text": "控訴審の訴訟費用　催告書送付費用",
+        "Amount": 110,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 19,
+        "Kind": "item",
+        "No": 17,
+        "Text": "控訴審の訴訟費用　確定処分正本送達費用",
+        "Amount": 1100,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 20,
+        "Kind": "sub",
+        "No": 0,
+        "Text": "（以上の小計）",
+        "Amount": 1210,
+        "Paren": true,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 21,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 79438,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 22,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 23,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "79,438円×4／5",
+        "Amount": 63550,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 24,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 25,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　証人旅費及び日当",
+        "Amount": 5300,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 26,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　文書送付嘱託費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 27,
+        "Kind": "item",
+        "No": 3,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第1回口頭弁論）",
+        "Amount": 4970,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 28,
+        "Kind": "item",
+        "No": 4,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第1回、第2回、第3回弁論準備手続）",
+        "Amount": 12870,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 29,
+        "Kind": "item",
+        "No": 5,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第1回尋問）",
+        "Amount": 4970,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 30,
+        "Kind": "item",
+        "No": 6,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 31,
+        "Kind": "item",
+        "No": 7,
+        "Text": "控訴審の訴訟費用　控訴提起手数料",
+        "Amount": 30000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 32,
+        "Kind": "item",
+        "No": 8,
+        "Text": "控訴審の訴訟費用　控訴状副本等送達費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 33,
+        "Kind": "item",
+        "No": 9,
+        "Text": "控訴審の訴訟費用　期日呼出費用",
+        "Amount": 900,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 34,
+        "Kind": "item",
+        "No": 10,
+        "Text": "控訴審の訴訟費用　判決正本送達費用",
+        "Amount": 1100,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 35,
+        "Kind": "item",
+        "No": 11,
+        "Text": "控訴審の訴訟費用　相手方本人出頭日当及び旅費（第1回口頭弁論） 区間1：2021/01/18〜",
+        "Amount": 4970,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 36,
+        "Kind": "item",
+        "No": 12,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 37,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 73080,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 38,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 39,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "73,080円×1／5",
+        "Amount": 14616,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 40,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 41,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方負担額63,550円−申立人負担額14,616円",
+        "Amount": 48934,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 71968
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 31110
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 1,
+        "Name": "小計（本案の費用）",
+        "Amount": 6260
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 1,
+        "Name": "小計（申立ての費用）",
+        "Amount": 1210
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 1,
+        "Name": "合計",
+        "Amount": 7470
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 41970
+      }
+    ],
+    "Hearing": {
+      "Rows": [
+        {
+          "RKey": "1|party|2",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 34,
+          "Fare": 1020,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4970,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "1|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 27,
+          "Fare": 810,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4760,
+          "Cap": 4760,
+          "Dropped": ""
+        },
+        {
+          "RKey": "2|party|2",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 34,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "2|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 27,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4760,
+          "Dropped": ""
+        },
+        {
+          "RKey": "3|party|2",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 34,
+          "Fare": 1020,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4970,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "3|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 27,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4760,
+          "Dropped": ""
+        },
+        {
+          "RKey": "4|party|2",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 34,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "4|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 27,
+          "Fare": 810,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4760,
+          "Cap": 4760,
+          "Dropped": ""
+        },
+        {
+          "RKey": "5|party|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 27,
+          "Fare": 810,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4760,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "5|party|2",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 34,
+          "Fare": 1020,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4970,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "5|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 27,
+          "Fare": 810,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4760,
+          "Cap": 0,
+          "Dropped": "⑤5号本文かっこ書（当事者等が出頭・呼出しなし）"
+        },
+        {
+          "RKey": "6|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 27,
+          "Fare": 810,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4760,
+          "Cap": 4760,
+          "Dropped": ""
+        },
+        {
+          "RKey": "7|party|2",
+          "PoolId": 2,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 34,
+          "Fare": 1020,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4970,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "7|attendee|1",
+          "PoolId": 2,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 27,
+          "Fare": 810,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4760,
+          "Cap": 4760,
+          "Dropped": ""
+        }
+      ],
+      "Warnings": [],
+      "CostRows": [
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 4970,
+          "Label": "相手方本人出頭日当及び旅費（第1回口頭弁論）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 12870,
+          "Label": "相手方本人出頭日当及び旅費（第1回、第2回、第3回弁論準備手続）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 4760,
+          "Label": "申立人本人出頭日当及び旅費（第1回尋問）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 4970,
+          "Label": "相手方本人出頭日当及び旅費（第1回尋問）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 1,
+          "Amount": 9520,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第1回、第2回）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 1,
+          "Amount": 12660,
+          "Label": "申立人代理人弁論準備手続期日出頭日当及び旅費（第1回、第2回、第3回）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 2,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 4970,
+          "Label": "相手方本人出頭日当及び旅費（第1回口頭弁論）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 2,
+          "Item": 5,
+          "SegNo": 1,
+          "Amount": 4760,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第1回）",
+          "Payers": [
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "file": "事件B.json",
+    "Normalized": [
+      "2->1:8250",
+      "3->1:10250"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [
+      "相殺 (1,2): 対当額 375 円",
+      "  充当: 債権者2 債務者1（単独債務）-375 -> 0",
+      "  充当: 債権者1 債務者2（単独債務）-375 -> 8250",
+      "相殺 (1,3): 対当額 1375 円",
+      "  充当: 債権者3 債務者1（単独債務）-1375 -> 0",
+      "  充当: 債権者1 債務者3（単独債務）-1375 -> 10250"
+    ],
+    "Decree": [
+      "1　相手方木下保は、申立人に対し、８２５０円を支払え。",
+      "2　相手方杉本渉は、申立人に対し、１万０２５０円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "訴え提起手数料",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "訴状副本等送達費用",
+        "Amount": 3300,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "判決正本送達費用（相手方木下保）",
+        "Amount": 1100,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 5,
+        "Kind": "item",
+        "No": 4,
+        "Text": "判決正本送達費用（相手方杉本渉）",
+        "Amount": 1100,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 6,
+        "Kind": "item",
+        "No": 5,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 7,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 27000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方木下保及び相手方杉本渉負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 9,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "（相手方木下保関係分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 10,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "訴え提起手数料　20,000円のうち",
+        "Amount": 8000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 11,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "訴状副本等送達費用　3,300円のうち",
+        "Amount": 1650,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "判決正本送達費用（相手方木下保）",
+        "Amount": 1100,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "書類の作成及び提出の費用　1,500円のうち",
+        "Amount": 750,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "11,500円×3／4",
+        "Amount": 8625,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 15,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "（相手方杉本渉関係分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 16,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "訴え提起手数料　20,000円のうち",
+        "Amount": 12000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 17,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "訴状副本等送達費用　3,300円のうち",
+        "Amount": 1650,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 18,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "判決正本送達費用（相手方杉本渉）",
+        "Amount": 1100,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 19,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "書類の作成及び提出の費用　1,500円のうち",
+        "Amount": 750,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 20,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "15,500円×3／4",
+        "Amount": 11625,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 21,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方木下保分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 22,
+        "Kind": "item",
+        "No": 1,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 23,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 24,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 25,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "1,500円×1／4",
+        "Amount": 375,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 26,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方杉本渉分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 27,
+        "Kind": "item",
+        "No": 1,
+        "Text": "証人旅費及び日当",
+        "Amount": 4000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 28,
+        "Kind": "item",
+        "No": 2,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 29,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 5500,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 30,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 31,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "5,500円×1／4",
+        "Amount": 1375,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 32,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 33,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方木下保負担額8,625円−申立人負担額375円",
+        "Amount": 8250,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 34,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 35,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方杉本渉負担額11,625円−申立人負担額1,375円",
+        "Amount": 10250,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 27000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 1500
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 3,
+        "Name": "小計",
+        "Amount": 5500
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "事件C.json",
+    "Normalized": [
+      "2->1:2400",
+      "2+3->1:18300"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [
+      "相殺 (1,2): 対当額 600 円",
+      "  充当: 債権者2 債務者1（単独債務）-600 -> 0",
+      "  充当: 債権者1 債務者2（連帯債務の持ち分）-600 -> 20700",
+      "相殺 (1,3): 対当額 3000 円",
+      "  充当: 債権者3 債務者1（単独債務）-3000 -> 0",
+      "  充当: 債権者1 債務者3（連帯債務の持ち分）-3000 -> 18300"
+    ],
+    "Decree": [
+      "1　相手方辛田夏夫は、申立人に対し、２万０７００円（ただし、内１万８３００円の限度で、相手方壬川秋男と連帯して）を支払え。",
+      "2　相手方壬川秋男は、申立人に対し、相手方辛田夏夫と連帯して１万８３００円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "訴え提起手数料",
+        "Amount": 30000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "訴状副本等送達費用",
+        "Amount": 4000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 5,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 35500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 6,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方辛田夏夫及び相手方壬川秋男負担分）（連帯）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 7,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "35,500円×3／5",
+        "Amount": 21300,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方辛田夏夫分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 9,
+        "Kind": "item",
+        "No": 1,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 10,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 11,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "1,500円×2／5",
+        "Amount": 600,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方壬川秋男分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "item",
+        "No": 1,
+        "Text": "証人旅費及び日当",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 15,
+        "Kind": "item",
+        "No": 2,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 16,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 7500,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 17,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 18,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "7,500円×2／5",
+        "Amount": 3000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 19,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 20,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方辛田夏夫負担額21,300円−申立人負担額600円",
+        "Amount": 20700,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 21,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 22,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方壬川秋男負担額21,300円−申立人負担額3,000円",
+        "Amount": 18300,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 35500
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 1500
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 3,
+        "Name": "小計",
+        "Amount": 7500
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "事件D.json",
+    "Normalized": [
+      "2->1:26667"
+    ],
+    "NotOrdered": [
+      "1->3:6000"
+    ],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [],
+    "Decree": [
+      "相手方小池亮は、申立人に対し、２万６６６７円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　訴え提起手数料",
+        "Amount": 20000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　訴状副本等送達費用",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "控訴審の訴訟費用　控訴提起手数料",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 5,
+        "Kind": "item",
+        "No": 4,
+        "Text": "控訴審の訴訟費用　控訴状副本等送達費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 6,
+        "Kind": "item",
+        "No": 5,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 7,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 45000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方小池亮負担分・第一審の訴訟費用・控訴審の訴訟費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 9,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "第一審の訴訟費用　訴え提起手数料　20,000円のうち相手方小池亮関係分",
+        "Amount": 6667,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 10,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "第一審の訴訟費用　訴状副本等送達費用　10,000円のうち相手方小池亮関係分",
+        "Amount": 5000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 11,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "控訴審の訴訟費用　控訴提起手数料",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "控訴審の訴訟費用　控訴状副本等送達費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "26,667円×1／1",
+        "Amount": 26667,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 15,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方小池亮分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 16,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　証人旅費及び日当",
+        "Amount": 4500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 17,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 18,
+        "Kind": "item",
+        "No": 3,
+        "Text": "控訴審の訴訟費用　証人旅費及び日当",
+        "Amount": 2500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 19,
+        "Kind": "item",
+        "No": 4,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 20,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 21,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方堀由美分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 22,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　証人旅費及び日当",
+        "Amount": 4500,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 23,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 24,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 25,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      },
+      {
+        "Seq": 26,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "6,000円×1／1",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 3,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 30000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 6000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 3,
+        "Name": "小計",
+        "Amount": 6000
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 15000
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 4000
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "事件E.json",
+    "Normalized": [],
+    "NotOrdered": [
+      "1->2:3667"
+    ],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [
+      "相殺 (1,2): 対当額 3333 円",
+      "  充当: 債権者2 債務者1（単独債務）-3333 -> 3667",
+      "  充当: 債権者1 債務者2（単独債務）-3333 -> 0"
+    ],
+    "Decree": [
+      "相手方が申立人に対して支払うべき訴訟費用額はない。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "訴え提起手数料",
+        "Amount": 6000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "訴状副本等送達費用",
+        "Amount": 2500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 5,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 10000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 6,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 7,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "10,000円×1／3",
+        "Amount": 3333,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 8,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 9,
+        "Kind": "item",
+        "No": 1,
+        "Text": "証人旅費及び日当",
+        "Amount": 9000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 10,
+        "Kind": "item",
+        "No": 2,
+        "Text": "書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 11,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 10500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "10,500円×2／3",
+        "Amount": 7000,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 15,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方負担額3,333円−申立人負担額7,000円",
+        "Amount": 0,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 10000
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 10500
+      }
+    ],
+    "Hearing": null
+  },
+  {
+    "file": "事件F.json",
+    "Normalized": [
+      "1->2:24705"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [
+      "相殺 (1,2): 対当額 7007 円",
+      "  充当: 債権者2 債務者1（単独債務）-7007 -> 19255",
+      "  充当: 債権者1 債務者2（単独債務）-7007 -> 0"
+    ],
+    "Decree": [
+      "相手方は、申立人に対し、２万４７０５円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　催告書送付費用",
+        "Amount": 110,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　訴訟費用額確定処分正本送達費用",
+        "Amount": 1270,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "第一審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第1回） 区間1：2024/12/06〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 5,
+        "Kind": "item",
+        "No": 4,
+        "Text": "第一審の訴訟費用　申立人代理人弁論準備手続期日出頭日当及び旅費（第1回、第2回、第3回、第4回） 区間2：2025/04/01〜",
+        "Amount": 15800,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 6,
+        "Kind": "item",
+        "No": 5,
+        "Text": "第一審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第2回） 区間2：2025/04/01〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 7,
+        "Kind": "item",
+        "No": 6,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 8,
+        "Kind": "item",
+        "No": 7,
+        "Text": "第一審の訴訟費用　官庁等からの書類交付費用",
+        "Amount": 600,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑦、民訴費用規２の３"
+      },
+      {
+        "Seq": 9,
+        "Kind": "item",
+        "No": 8,
+        "Text": "控訴審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第1回） 区間1：2026/01/09〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 10,
+        "Kind": "item",
+        "No": 9,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 11,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 34630,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方負担分・第一審の訴訟費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "29,180円×9／10",
+        "Amount": 26262,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方負担分・控訴審の訴訟費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 15,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "5,450円×1／1",
+        "Amount": 5450,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 16,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 17,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　訴え提起手数料",
+        "Amount": 34000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 18,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　期日通知書送付費用",
+        "Amount": 110,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 19,
+        "Kind": "item",
+        "No": 3,
+        "Text": "第一審の訴訟費用　訴状副本等送達費用",
+        "Amount": 1480,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 20,
+        "Kind": "item",
+        "No": 4,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第1回口頭弁論） 区間1：2024/12/06〜",
+        "Amount": 4340,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 21,
+        "Kind": "item",
+        "No": 5,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第1回、第2回、第3回、第4回弁論準備手続） 区間2：2025/04/01〜",
+        "Amount": 17360,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 22,
+        "Kind": "item",
+        "No": 6,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第2回、第3回口頭弁論） 区間2：2025/04/01〜",
+        "Amount": 8680,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 23,
+        "Kind": "item",
+        "No": 7,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 24,
+        "Kind": "item",
+        "No": 8,
+        "Text": "第一審の訴訟費用　官庁等からの書類交付費用",
+        "Amount": 600,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑦、民訴費用規２の３"
+      },
+      {
+        "Seq": 25,
+        "Kind": "item",
+        "No": 9,
+        "Text": "控訴審の訴訟費用　控訴提起手数料",
+        "Amount": 51000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 26,
+        "Kind": "item",
+        "No": 10,
+        "Text": "控訴審の訴訟費用　控訴状副本等送達費用",
+        "Amount": 1480,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 27,
+        "Kind": "item",
+        "No": 11,
+        "Text": "控訴審の訴訟費用　判決正本送達費用（控訴人）",
+        "Amount": 1300,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 28,
+        "Kind": "item",
+        "No": 12,
+        "Text": "控訴審の訴訟費用　判決正本送達費用（被控訴人）",
+        "Amount": 1300,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 29,
+        "Kind": "item",
+        "No": 13,
+        "Text": "控訴審の訴訟費用　相手方本人出頭日当及び旅費（第1回口頭弁論） 区間1：2026/01/09〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 30,
+        "Kind": "item",
+        "No": 14,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 2000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 31,
+        "Kind": "item",
+        "No": 15,
+        "Text": "控訴審の訴訟費用　官庁等からの書類交付費用",
+        "Amount": 600,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑦、民訴費用規２の３"
+      },
+      {
+        "Seq": 32,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 131700,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 33,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分・第一審の訴訟費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 34,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "70,070円×1／10",
+        "Amount": 7007,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 35,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 36,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方負担額31,712円−申立人負担額7,007円",
+        "Amount": 24705,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 70070
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 29180
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 61630
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 5450
+      }
+    ],
+    "Hearing": {
+      "Rows": [
+        {
+          "RKey": "101|party|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "101|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "102|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "102|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "103|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "103|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "104|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "104|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "106|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "106|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "107|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "107|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "108|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "109|party|1",
+          "PoolId": 2,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 407,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "109|attendee|1",
+          "PoolId": 2,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 401,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 22990,
+          "Dropped": ""
+        }
+      ],
+      "Warnings": [],
+      "CostRows": [
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 4340,
+          "Label": "相手方本人出頭日当及び旅費（第1回口頭弁論）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 2,
+          "Amount": 17360,
+          "Label": "相手方本人出頭日当及び旅費（第1回、第2回、第3回、第4回弁論準備手続）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 2,
+          "Amount": 8680,
+          "Label": "相手方本人出頭日当及び旅費（第2回、第3回口頭弁論）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 1,
+          "Amount": 3950,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第1回）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 2,
+          "Amount": 15800,
+          "Label": "申立人代理人弁論準備手続期日出頭日当及び旅費（第1回、第2回、第3回、第4回）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 2,
+          "Amount": 3950,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第2回）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 2,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 3950,
+          "Label": "相手方本人出頭日当及び旅費（第1回口頭弁論）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 2,
+          "Item": 5,
+          "SegNo": 1,
+          "Amount": 3950,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第1回）",
+          "Payers": [
+            2
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "file": "事件G.json",
+    "Normalized": [
+      "1->2:24705"
+    ],
+    "NotOrdered": [],
+    "Errors": [],
+    "Warnings": [],
+    "Diffs": [],
+    "Notes": [],
+    "OffsetLog": [
+      "相殺 (1,2): 対当額 7007 円",
+      "  充当: 債権者2 債務者1（単独債務）-7007 -> 19255",
+      "  充当: 債権者1 債務者2（単独債務）-7007 -> 0"
+    ],
+    "Decree": [
+      "相手方は、申立人に対し、２万４７０５円を支払え。"
+    ],
+    "Sheet2": [
+      {
+        "Seq": 1,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（申立人分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 2,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　催告書送付費用",
+        "Amount": 110,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 3,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　訴訟費用額確定処分正本送達費用",
+        "Amount": 1270,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 4,
+        "Kind": "item",
+        "No": 3,
+        "Text": "第一審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第1回） 区間1：2024/12/06〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 5,
+        "Kind": "item",
+        "No": 4,
+        "Text": "第一審の訴訟費用　申立人代理人弁論準備手続期日出頭日当及び旅費（第1回、第2回、第3回、第4回） 区間2：2025/04/01〜",
+        "Amount": 15800,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 6,
+        "Kind": "item",
+        "No": 5,
+        "Text": "第一審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第2回） 区間2：2025/04/01〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 7,
+        "Kind": "item",
+        "No": 6,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 8,
+        "Kind": "item",
+        "No": 7,
+        "Text": "第一審の訴訟費用　官庁等からの書類交付費用",
+        "Amount": 600,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑦、民訴費用規２の３"
+      },
+      {
+        "Seq": 9,
+        "Kind": "item",
+        "No": 8,
+        "Text": "控訴審の訴訟費用　申立人代理人口頭弁論期日出頭日当及び旅費（第1回） 区間1：2026/01/09〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑤、民訴費用規２"
+      },
+      {
+        "Seq": 10,
+        "Kind": "item",
+        "No": 9,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 1500,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 11,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 34630,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 12,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方負担分・第一審の訴訟費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 13,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "29,180円×9／10",
+        "Amount": 26262,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 14,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（相手方負担分・控訴審の訴訟費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 15,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "5,450円×1／1",
+        "Amount": 5450,
+        "Paren": false,
+        "PartyId": 2,
+        "Note": ""
+      },
+      {
+        "Seq": 16,
+        "Kind": "head",
+        "No": 0,
+        "Text": "（相手方分）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 17,
+        "Kind": "item",
+        "No": 1,
+        "Text": "第一審の訴訟費用　訴え提起手数料",
+        "Amount": 34000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 18,
+        "Kind": "item",
+        "No": 2,
+        "Text": "第一審の訴訟費用　期日通知書送付費用",
+        "Amount": 110,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 19,
+        "Kind": "item",
+        "No": 3,
+        "Text": "第一審の訴訟費用　訴状副本等送達費用",
+        "Amount": 1480,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 20,
+        "Kind": "item",
+        "No": 4,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第1回口頭弁論） 区間1：2024/12/06〜",
+        "Amount": 4340,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 21,
+        "Kind": "item",
+        "No": 5,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第1回、第2回、第3回、第4回弁論準備手続） 区間2：2025/04/01〜",
+        "Amount": 17360,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 22,
+        "Kind": "item",
+        "No": 6,
+        "Text": "第一審の訴訟費用　相手方本人出頭日当及び旅費（第2回、第3回口頭弁論） 区間2：2025/04/01〜",
+        "Amount": 8680,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 23,
+        "Kind": "item",
+        "No": 7,
+        "Text": "第一審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 3500,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 24,
+        "Kind": "item",
+        "No": 8,
+        "Text": "第一審の訴訟費用　官庁等からの書類交付費用",
+        "Amount": 600,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑦、民訴費用規２の３"
+      },
+      {
+        "Seq": 25,
+        "Kind": "item",
+        "No": 9,
+        "Text": "控訴審の訴訟費用　控訴提起手数料",
+        "Amount": 51000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２①、３別表第１・１"
+      },
+      {
+        "Seq": 26,
+        "Kind": "item",
+        "No": 10,
+        "Text": "控訴審の訴訟費用　控訴状副本等送達費用",
+        "Amount": 1480,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 27,
+        "Kind": "item",
+        "No": 11,
+        "Text": "控訴審の訴訟費用　判決正本送達費用（控訴人）",
+        "Amount": 1300,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 28,
+        "Kind": "item",
+        "No": 12,
+        "Text": "控訴審の訴訟費用　判決正本送達費用（被控訴人）",
+        "Amount": 1300,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２②、11Ⅰ①"
+      },
+      {
+        "Seq": 29,
+        "Kind": "item",
+        "No": 13,
+        "Text": "控訴審の訴訟費用　相手方本人出頭日当及び旅費（第1回口頭弁論） 区間1：2026/01/09〜",
+        "Amount": 3950,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２④、民訴費用規２"
+      },
+      {
+        "Seq": 30,
+        "Kind": "item",
+        "No": 14,
+        "Text": "控訴審の訴訟費用　書類の作成及び提出の費用",
+        "Amount": 2000,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑥、民訴費用規２の２"
+      },
+      {
+        "Seq": 31,
+        "Kind": "item",
+        "No": 15,
+        "Text": "控訴審の訴訟費用　官庁等からの書類交付費用",
+        "Amount": 600,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": "民訴費用法２⑦、民訴費用規２の３"
+      },
+      {
+        "Seq": 32,
+        "Kind": "total",
+        "No": 0,
+        "Text": "合計",
+        "Amount": 131700,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 33,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "案分計算（申立人負担分・第一審の訴訟費用）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 34,
+        "Kind": "prorate",
+        "No": 0,
+        "Text": "70,070円×1／10",
+        "Amount": 7007,
+        "Paren": false,
+        "PartyId": 1,
+        "Note": ""
+      },
+      {
+        "Seq": 35,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "法定相殺（民事訴訟法71条３項）",
+        "Amount": null,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      },
+      {
+        "Seq": 36,
+        "Kind": "offset",
+        "No": 0,
+        "Text": "相手方負担額31,712円−申立人負担額7,007円",
+        "Amount": 24705,
+        "Paren": false,
+        "PartyId": 0,
+        "Note": ""
+      }
+    ],
+    "CostSubtotals": [
+      {
+        "PoolId": 1,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 70070
+      },
+      {
+        "PoolId": 1,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 29180
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 1,
+        "Name": "小計",
+        "Amount": 61630
+      },
+      {
+        "PoolId": 2,
+        "PartyId": 2,
+        "Name": "小計",
+        "Amount": 5450
+      }
+    ],
+    "Hearing": {
+      "Rows": [
+        {
+          "RKey": "101|party|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "101|attendee|1",
+          "PoolId": 1,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "102|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "102|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "103|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "103|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "104|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "104|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "106|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "106|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "107|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "107|attendee|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 5,
+          "Km": 0,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 4250,
+          "Dropped": ""
+        },
+        {
+          "RKey": "108|party|1",
+          "PoolId": 1,
+          "SegNo": 2,
+          "Item": 4,
+          "Km": 13,
+          "Fare": 390,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 4340,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "109|party|1",
+          "PoolId": 2,
+          "SegNo": 1,
+          "Item": 4,
+          "Km": 407,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 0,
+          "Dropped": ""
+        },
+        {
+          "RKey": "109|attendee|1",
+          "PoolId": 2,
+          "SegNo": 1,
+          "Item": 5,
+          "Km": 401,
+          "Fare": 0,
+          "Daily": 3950,
+          "Lodge": 0,
+          "Amount": 3950,
+          "Cap": 22990,
+          "Dropped": ""
+        }
+      ],
+      "Warnings": [],
+      "CostRows": [
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 4340,
+          "Label": "相手方本人出頭日当及び旅費（第1回口頭弁論）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 2,
+          "Amount": 17360,
+          "Label": "相手方本人出頭日当及び旅費（第1回、第2回、第3回、第4回弁論準備手続）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 4,
+          "SegNo": 2,
+          "Amount": 8680,
+          "Label": "相手方本人出頭日当及び旅費（第2回、第3回口頭弁論）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 1,
+          "Amount": 3950,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第1回）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 2,
+          "Amount": 15800,
+          "Label": "申立人代理人弁論準備手続期日出頭日当及び旅費（第1回、第2回、第3回、第4回）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 1,
+          "Item": 5,
+          "SegNo": 2,
+          "Amount": 3950,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第2回）",
+          "Payers": [
+            2
+          ]
+        },
+        {
+          "PoolId": 2,
+          "Item": 4,
+          "SegNo": 1,
+          "Amount": 3950,
+          "Label": "相手方本人出頭日当及び旅費（第1回口頭弁論）",
+          "Payers": [
+            1
+          ]
+        },
+        {
+          "PoolId": 2,
+          "Item": 5,
+          "SegNo": 1,
+          "Amount": 3950,
+          "Label": "申立人代理人口頭弁論期日出頭日当及び旅費（第1回）",
+          "Payers": [
+            2
+          ]
+        }
+      ]
+    }
+  }
+]

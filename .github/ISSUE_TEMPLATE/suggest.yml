@@ -1,0 +1,27 @@
+name: 改善の提案
+description: 画面の使い勝手、説明の分かりやすさ、機能の追加などを提案する
+title: "[提案] "
+labels: ["機能追加"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **事件の当事者名・住所・事件番号など、個別の事件を特定できる情報は書かないでください。**
+  - type: textarea
+    id: target
+    attributes:
+      label: 対象
+      description: 画面（STEP）や機能
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 提案の内容
+      description: 困っていること・こうなるとよいこと
+    validations:
+      required: true
+  - type: input
+    id: note
+    attributes:
+      label: 補足（任意）

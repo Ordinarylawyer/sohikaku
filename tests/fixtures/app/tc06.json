@@ -1,0 +1,56 @@
+{
+  "title": "TC-06 X→A・B、AB間は控訴棄却、AC間(X-A間)は原判決変更",
+  "parties": [
+    { "id": 1, "kind": "申立人", "name": "原告X" },
+    { "id": 2, "kind": "相手方", "name": "被告A" },
+    { "id": 3, "kind": "相手方", "name": "被告B" }
+  ],
+  "instances": [
+    { "id": 1, "rank": 1, "name": "第一審", "start": "2023-04-10" },
+    { "id": 2, "rank": 2, "name": "控訴審", "start": "2024-05-20" }
+  ],
+  "pools": [
+    { "id": 1, "instanceId": 1, "kind": "本体", "name": "第一審の訴訟費用" },
+    { "id": 2, "instanceId": 2, "kind": "本体", "name": "控訴費用" }
+  ],
+  "opponentScopes": [
+    { "poolId": 1, "partyId": 1, "opponentId": 2, "included": true },
+    { "poolId": 1, "partyId": 1, "opponentId": 3, "included": true },
+    { "poolId": 1, "partyId": 2, "opponentId": 1, "included": true },
+    { "poolId": 1, "partyId": 2, "opponentId": 3, "included": false }
+  ],
+  "_opponentScopesNote": "区分「第一審」は相手ごとに条項が分かれるので STEP 5 で相手方の範囲を聞く（原告X と被告A）",
+  "claims": [
+    { "instanceId": 1, "from": 1, "to": 2, "amount": 1000000 },
+    { "instanceId": 1, "from": 1, "to": 3, "amount": 2000000 }
+  ],
+  "rulings": [
+    {
+      "id": 1, "rulingInstanceId": 1, "scopePools": [1], "scopeParties": [1, 2, 3],
+      "_note": "第一審: 訴訟費用は原告Xの負担とする",
+      "obligations": [
+        { "column": 1, "num": 1, "den": 1, "obligors": [1] },
+        { "column": 2, "num": 1, "den": 1, "obligors": [1] },
+        { "column": 3, "num": 1, "den": 1, "obligors": [1] }
+      ]
+    },
+    {
+      "id": 2, "rulingInstanceId": 2, "scopePools": [1, 2], "scopeParties": [1, 2],
+      "_note": "控訴審: X・A間の訴訟の総費用は被告Aの負担とする",
+      "obligations": [
+        { "column": 1, "num": 1, "den": 1, "obligors": [2] },
+        { "column": 2, "num": 1, "den": 1, "obligors": [2] }
+      ]
+    }
+  ],
+  "costs": [
+    { "poolId": 1, "partyId": 1, "item": 1, "amount": 20000, "label": "訴え提起手数料 訴額300万円" },
+    { "poolId": 1, "partyId": 1, "item": 6, "amount": 10000, "label": "書類の作成及び提出" },
+    { "poolId": 1, "partyId": 2, "item": 6, "amount": 6000,  "label": "書類の作成及び提出" },
+    { "poolId": 1, "partyId": 3, "item": 6, "amount": 6000,  "label": "書類の作成及び提出" },
+    { "poolId": 2, "partyId": 1, "item": 1, "amount": 10000, "label": "控訴提起手数料" },
+    { "poolId": 2, "partyId": 1, "item": 6, "amount": 5000,  "label": "書類の作成及び提出" },
+    { "poolId": 2, "partyId": 2, "item": 6, "amount": 4000,  "label": "書類の作成及び提出" }
+  ],
+  "options": { "opponentMode": "none", "opponentIds": [] }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "TC-08 一部連帯（Yは2分の1、ただし4分の1の限度でZと連帯）",
+  "parties": [
+    { "id": 1, "kind": "申立人", "name": "原告A" },
+    { "id": 2, "kind": "相手方", "name": "被告Y" },
+    { "id": 3, "kind": "相手方", "name": "被告Z" }
+  ],
+  "instances": [{ "id": 1, "rank": 1, "name": "第一審", "start": "2024-02-01" }],
+  "pools": [{ "id": 1, "instanceId": 1, "kind": "本体", "name": "第一審の訴訟費用" }],
+  "rulings": [
+    {
+      "id": 1, "rulingInstanceId": 1, "scopePools": [1], "scopeParties": [1, 2, 3],
+      "_note": "Aに生じた費用は、その2分の1をYの負担（ただし4分の1の限度でZと連帯）、その4分の1をZの負担、その余をAの負担とする",
+      "obligations": [
+        { "column": 1, "num": 1, "den": 4, "obligors": [2] },
+        { "column": 1, "num": 1, "den": 4, "obligors": [2, 3] },
+        { "column": 1, "num": 1, "den": 4, "obligors": [3] },
+        { "column": 1, "num": 1, "den": 4, "obligors": [1] }
+      ]
+    }
+  ],
+  "costs": [
+    { "poolId": 1, "partyId": 1, "item": 1, "amount": 20000, "label": "訴え提起手数料" },
+    { "poolId": 1, "partyId": 1, "item": 6, "amount": 20000, "label": "書類の作成及び提出" }
+  ],
+  "options": { "opponentMode": "none", "opponentIds": [] }
+}

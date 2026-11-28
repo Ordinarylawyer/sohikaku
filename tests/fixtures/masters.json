@@ -1,0 +1,4535 @@
+{
+  "version": "2026-11-28",
+  "rates": [
+    {
+      "ItemCode": "HONYAKU_GAI_NICHI",
+      "ItemName": "翻訳料（外国語→日本語 1枚）",
+      "EffectiveDate": "2000-01-01",
+      "Amount": 1600,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "HONYAKU_NICHI_GAI",
+      "ItemName": "翻訳料（日本語→外国語 1枚）",
+      "EffectiveDate": "2000-01-01",
+      "Amount": 3000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "KAKITOME",
+      "ItemName": "書留料",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 420,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "KAKITOME",
+      "ItemName": "書留料",
+      "EffectiveDate": "2014-04-01",
+      "Amount": 430,
+      "AbolishedDate": null,
+      "FilingBasis": true
+    },
+    {
+      "ItemCode": "KAKITOME",
+      "ItemName": "書留料",
+      "EffectiveDate": "2019-10-01",
+      "Amount": 435,
+      "AbolishedDate": null,
+      "FilingBasis": true
+    },
+    {
+      "ItemCode": "KAKITOME",
+      "ItemName": "書留料",
+      "EffectiveDate": "2023-10-01",
+      "Amount": 480,
+      "AbolishedDate": null,
+      "FilingBasis": true
+    },
+    {
+      "ItemCode": "KAKITOME",
+      "ItemName": "書留料",
+      "EffectiveDate": "2024-09-17",
+      "Amount": 480,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "NITTOU",
+      "ItemName": "日当",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 3950,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "RYOHI_DOITSU",
+      "ItemName": "旅費（簡裁の所在場所が同一）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 300,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "RYOHI_KINKYORI",
+      "ItemName": "旅費（距離10km未満）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 300,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "RYOHI_KM_100_301",
+      "ItemName": "旅費 100km以上301km未満（1kmにつき）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 50,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "RYOHI_KM_10_100",
+      "ItemName": "旅費 10km以上100km未満（1kmにつき）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 30,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "RYOHI_KM_301_IJO",
+      "ItemName": "旅費 301km以上のうち301km以上の部分（1kmにつき）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 40,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "RYOHI_KM_301_MIMAN",
+      "ItemName": "旅費 301km以上のうち301km未満の部分（1kmにつき）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 50,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_1_KIHON",
+      "ItemName": "書類作成提出費用（訴訟・保全）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 1500,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_1_SHOSHO",
+      "ItemName": "書類作成提出費用（訴訟・保全／書証の写し 超える50通までごと）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 1000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_1_SHUCHO",
+      "ItemName": "書類作成提出費用（訴訟・保全／主張書面 超える15通までごと）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 1000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_2",
+      "ItemName": "書類作成提出費用（即決和解・支払督促）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 800,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_2_2_KASAN",
+      "ItemName": "書類作成提出費用（共通義務確認後の簡易確定手続／債権の数超える500個までごと）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 1000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_2_2_KIHON",
+      "ItemName": "書類作成提出費用（共通義務確認後の簡易確定手続）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 1000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_3",
+      "ItemName": "書類作成提出費用（基本手続が開始するもの）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 1000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_3_TA",
+      "ItemName": "書類作成提出費用（強制執行等における申立人以外の債権者）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 500,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_5",
+      "ItemName": "書類作成提出費用（雑事件群）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 800,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_6",
+      "ItemName": "書類作成提出費用（破産等の参加の届出）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 500,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_KOJO_1",
+      "ItemName": "書類作成提出費用（控除（和解・支払督促から移行））",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 800,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_KOJO_2",
+      "ItemName": "書類作成提出費用（控除（労働審判から移行・四の項イ））",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 1000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHORUI_SHOKKEN",
+      "ItemName": "書類作成提出費用（職権により開始された基本手続）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 800,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_01",
+      "ItemName": "宿泊料（北海道）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_01",
+      "ItemName": "宿泊料（北海道）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 15000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_02",
+      "ItemName": "宿泊料（青森県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_02",
+      "ItemName": "宿泊料（青森県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_03",
+      "ItemName": "宿泊料（岩手県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_03",
+      "ItemName": "宿泊料（岩手県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_04",
+      "ItemName": "宿泊料（宮城県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_04",
+      "ItemName": "宿泊料（宮城県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_05",
+      "ItemName": "宿泊料（秋田県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_05",
+      "ItemName": "宿泊料（秋田県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_06",
+      "ItemName": "宿泊料（山形県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_06",
+      "ItemName": "宿泊料（山形県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_07",
+      "ItemName": "宿泊料（福島県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 8000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_07",
+      "ItemName": "宿泊料（福島県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_08",
+      "ItemName": "宿泊料（茨城県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_08",
+      "ItemName": "宿泊料（茨城県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_09",
+      "ItemName": "宿泊料（栃木県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_09",
+      "ItemName": "宿泊料（栃木県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_10",
+      "ItemName": "宿泊料（群馬県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_10",
+      "ItemName": "宿泊料（群馬県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_11",
+      "ItemName": "宿泊料（埼玉県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 19000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_11",
+      "ItemName": "宿泊料（埼玉県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 16000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_12",
+      "ItemName": "宿泊料（千葉県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 17000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_12",
+      "ItemName": "宿泊料（千葉県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 17000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_13",
+      "ItemName": "宿泊料（東京都）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 19000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_13",
+      "ItemName": "宿泊料（東京都）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 21000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_14",
+      "ItemName": "宿泊料（神奈川県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 16000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_14",
+      "ItemName": "宿泊料（神奈川県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 16000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_15",
+      "ItemName": "宿泊料（新潟県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 16000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_15",
+      "ItemName": "宿泊料（新潟県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 16000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_16",
+      "ItemName": "宿泊料（富山県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_16",
+      "ItemName": "宿泊料（富山県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_17",
+      "ItemName": "宿泊料（石川県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_17",
+      "ItemName": "宿泊料（石川県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_18",
+      "ItemName": "宿泊料（福井県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_18",
+      "ItemName": "宿泊料（福井県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_19",
+      "ItemName": "宿泊料（山梨県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_19",
+      "ItemName": "宿泊料（山梨県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_20",
+      "ItemName": "宿泊料（長野県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_20",
+      "ItemName": "宿泊料（長野県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_21",
+      "ItemName": "宿泊料（岐阜県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_21",
+      "ItemName": "宿泊料（岐阜県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_22",
+      "ItemName": "宿泊料（静岡県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_22",
+      "ItemName": "宿泊料（静岡県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_23",
+      "ItemName": "宿泊料（愛知県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_23",
+      "ItemName": "宿泊料（愛知県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_24",
+      "ItemName": "宿泊料（三重県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_24",
+      "ItemName": "宿泊料（三重県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_25",
+      "ItemName": "宿泊料（滋賀県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_25",
+      "ItemName": "宿泊料（滋賀県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_26",
+      "ItemName": "宿泊料（京都府）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 19000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_26",
+      "ItemName": "宿泊料（京都府）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 20000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_27",
+      "ItemName": "宿泊料（大阪府）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_27",
+      "ItemName": "宿泊料（大阪府）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 16000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_28",
+      "ItemName": "宿泊料（兵庫県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_28",
+      "ItemName": "宿泊料（兵庫県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 17000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_29",
+      "ItemName": "宿泊料（奈良県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_29",
+      "ItemName": "宿泊料（奈良県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_30",
+      "ItemName": "宿泊料（和歌山県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_30",
+      "ItemName": "宿泊料（和歌山県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_31",
+      "ItemName": "宿泊料（鳥取県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 8000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_31",
+      "ItemName": "宿泊料（鳥取県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_32",
+      "ItemName": "宿泊料（島根県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_32",
+      "ItemName": "宿泊料（島根県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_33",
+      "ItemName": "宿泊料（岡山県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_33",
+      "ItemName": "宿泊料（岡山県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 14000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_34",
+      "ItemName": "宿泊料（広島県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_34",
+      "ItemName": "宿泊料（広島県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 14000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_35",
+      "ItemName": "宿泊料（山口県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 8000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_35",
+      "ItemName": "宿泊料（山口県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 9000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_36",
+      "ItemName": "宿泊料（徳島県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_36",
+      "ItemName": "宿泊料（徳島県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_37",
+      "ItemName": "宿泊料（香川県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 15000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_37",
+      "ItemName": "宿泊料（香川県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 15000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_38",
+      "ItemName": "宿泊料（愛媛県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 10000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_38",
+      "ItemName": "宿泊料（愛媛県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_39",
+      "ItemName": "宿泊料（高知県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_39",
+      "ItemName": "宿泊料（高知県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_40",
+      "ItemName": "宿泊料（福岡県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 18000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_40",
+      "ItemName": "宿泊料（福岡県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 17000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_41",
+      "ItemName": "宿泊料（佐賀県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_41",
+      "ItemName": "宿泊料（佐賀県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_42",
+      "ItemName": "宿泊料（長崎県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_42",
+      "ItemName": "宿泊料（長崎県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 13000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_43",
+      "ItemName": "宿泊料（熊本県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 14000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_43",
+      "ItemName": "宿泊料（熊本県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 14000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_44",
+      "ItemName": "宿泊料（大分県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_44",
+      "ItemName": "宿泊料（大分県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_45",
+      "ItemName": "宿泊料（宮崎県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_45",
+      "ItemName": "宿泊料（宮崎県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_46",
+      "ItemName": "宿泊料（鹿児島県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_46",
+      "ItemName": "宿泊料（鹿児島県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_47",
+      "ItemName": "宿泊料（沖縄県）",
+      "EffectiveDate": "2025-04-01",
+      "Amount": 11000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_47",
+      "ItemName": "宿泊料（沖縄県）",
+      "EffectiveDate": "2026-04-01",
+      "Amount": 12000,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_KO",
+      "ItemName": "宿泊料（甲地方）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 8500,
+      "AbolishedDate": "2025-04-01",
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "SHUKUHAKU_OTSU",
+      "ItemName": "宿泊料（乙地方）",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 7500,
+      "AbolishedDate": "2025-04-01",
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "YUBIN_1SHU",
+      "ItemName": "第一種郵便物の最低料金",
+      "EffectiveDate": "2004-01-01",
+      "Amount": 80,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "YUBIN_1SHU",
+      "ItemName": "第一種郵便物の最低料金",
+      "EffectiveDate": "2014-04-01",
+      "Amount": 82,
+      "AbolishedDate": null,
+      "FilingBasis": true
+    },
+    {
+      "ItemCode": "YUBIN_1SHU",
+      "ItemName": "第一種郵便物の最低料金",
+      "EffectiveDate": "2019-10-01",
+      "Amount": 84,
+      "AbolishedDate": null,
+      "FilingBasis": true
+    },
+    {
+      "ItemCode": "YUBIN_1SHU",
+      "ItemName": "第一種郵便物の最低料金",
+      "EffectiveDate": "2024-09-17",
+      "Amount": 84,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    },
+    {
+      "ItemCode": "YUBIN_1SHU",
+      "ItemName": "第一種郵便物の最低料金",
+      "EffectiveDate": "2024-10-01",
+      "Amount": 110,
+      "AbolishedDate": null,
+      "FilingBasis": false
+    }
+  ],
+  "courts": [
+    {
+      "Court": "中頓別簡易裁判所",
+      "DistFam": "旭川家庭裁判所中頓別出張所",
+      "High": null,
+      "Addr": "枝幸郡中頓別町字中頓別166-5",
+      "Lat": 44.972904,
+      "Lon": 142.293915
+    },
+    {
+      "Court": "伊達簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "北海道伊達市末永町47-10",
+      "Lat": 42.475723,
+      "Lon": 140.865494
+    },
+    {
+      "Court": "八雲簡易裁判所",
+      "DistFam": "函館家庭裁判所八雲出張所",
+      "High": null,
+      "Addr": "北海道二海郡八雲町末広町184",
+      "Lat": 42.253586,
+      "Lon": 140.268097
+    },
+    {
+      "Court": "函館簡易裁判所",
+      "DistFam": "函館地方裁判所／函館家庭裁判所",
+      "High": null,
+      "Addr": "北海道函館市上新川町1番8号",
+      "Lat": 41.778053,
+      "Lon": 140.738586
+    },
+    {
+      "Court": "北見簡易裁判所",
+      "DistFam": "釧路地方裁判所北見支部／釧路家庭裁判所北見支部",
+      "High": null,
+      "Addr": "北海道北見市寿町4丁目7-36",
+      "Lat": 43.812435,
+      "Lon": 143.879395
+    },
+    {
+      "Court": "名寄簡易裁判所",
+      "DistFam": "旭川地方裁判所名寄支部／旭川家庭裁判所名寄支部",
+      "High": null,
+      "Addr": "名寄市西4南9",
+      "Lat": 44.347462,
+      "Lon": 142.456592
+    },
+    {
+      "Court": "夕張簡易裁判所",
+      "DistFam": "札幌家庭裁判所夕張出張所",
+      "High": null,
+      "Addr": "北海道夕張市末広1-92-16",
+      "Lat": 43.050678,
+      "Lon": 141.962082
+    },
+    {
+      "Court": "天塩簡易裁判所",
+      "DistFam": "旭川家庭裁判所天塩出張所",
+      "High": null,
+      "Addr": "天塩郡天塩町新栄通7",
+      "Lat": 44.88699,
+      "Lon": 141.744568
+    },
+    {
+      "Court": "室蘭簡易裁判所",
+      "DistFam": "札幌地方裁判所室蘭支部／札幌家庭裁判所室蘭支部",
+      "High": null,
+      "Addr": "北海道室蘭市日の出町1-18-29",
+      "Lat": 42.350647,
+      "Lon": 141.036758
+    },
+    {
+      "Court": "富良野簡易裁判所",
+      "DistFam": "旭川家庭裁判所富良野出張所",
+      "High": null,
+      "Addr": "富良野市弥生町2-55",
+      "Lat": 43.342312,
+      "Lon": 142.379318
+    },
+    {
+      "Court": "寿都簡易裁判所",
+      "DistFam": "函館家庭裁判所寿都出張所",
+      "High": null,
+      "Addr": "北海道寿都郡寿都町字新栄町209",
+      "Lat": 42.79108,
+      "Lon": 140.217789
+    },
+    {
+      "Court": "小樽簡易裁判所",
+      "DistFam": "札幌地方裁判所小樽支部／札幌家庭裁判所小樽支部",
+      "High": null,
+      "Addr": "北海道小樽市花園5-1-1",
+      "Lat": 43.190563,
+      "Lon": 140.992584
+    },
+    {
+      "Court": "岩内簡易裁判所",
+      "DistFam": "札幌地方裁判所岩内支部／札幌家庭裁判所岩内支部",
+      "High": null,
+      "Addr": "北海道岩内郡岩内町字高台192-1",
+      "Lat": 42.978775,
+      "Lon": 140.514725
+    },
+    {
+      "Court": "岩見沢簡易裁判所",
+      "DistFam": "札幌地方裁判所岩見沢支部／札幌家庭裁判所岩見沢支部",
+      "High": null,
+      "Addr": "北海道岩見沢市4条東4丁目",
+      "Lat": 43.205433,
+      "Lon": 141.769913
+    },
+    {
+      "Court": "帯広簡易裁判所",
+      "DistFam": "釧路地方裁判所帯広支部／釧路家庭裁判所帯広支部",
+      "High": null,
+      "Addr": "北海道帯広市東8条南9丁目1",
+      "Lat": 42.92308,
+      "Lon": 143.217987
+    },
+    {
+      "Court": "旭川簡易裁判所",
+      "DistFam": "旭川地方裁判所／旭川家庭裁判所",
+      "High": null,
+      "Addr": "旭川市花咲町4丁目",
+      "Lat": 43.790276,
+      "Lon": 142.373108
+    },
+    {
+      "Court": "本別簡易裁判所",
+      "DistFam": "釧路家庭裁判所本別出張所",
+      "High": null,
+      "Addr": "北海道中川郡本別町柳町4",
+      "Lat": 43.115623,
+      "Lon": 143.609772
+    },
+    {
+      "Court": "札幌簡易裁判所",
+      "DistFam": "札幌地方裁判所／札幌家庭裁判所",
+      "High": "札幌高等裁判所",
+      "Addr": "北海道札幌市中央区大通西12丁目",
+      "Lat": 43.058674,
+      "Lon": 141.338837
+    },
+    {
+      "Court": "松前簡易裁判所",
+      "DistFam": "函館家庭裁判所松前出張所",
+      "High": null,
+      "Addr": "北海道松前郡松前町字建石48",
+      "Lat": 41.431953,
+      "Lon": 140.076645
+    },
+    {
+      "Court": "根室簡易裁判所",
+      "DistFam": "釧路地方裁判所根室支部／釧路家庭裁判所根室支部",
+      "High": null,
+      "Addr": "北海道根室市敷島町2丁目3",
+      "Lat": 43.326481,
+      "Lon": 145.577698
+    },
+    {
+      "Court": "標津簡易裁判所",
+      "DistFam": "釧路家庭裁判所標津出張所",
+      "High": null,
+      "Addr": "北海道標津郡標津町北2条西1丁目1-17",
+      "Lat": 43.661655,
+      "Lon": 145.131454
+    },
+    {
+      "Court": "江差簡易裁判所",
+      "DistFam": "函館地方裁判所江差支部／函館家庭裁判所江差支部",
+      "High": null,
+      "Addr": "北海道檜山郡江差町字本町237",
+      "Lat": 41.865547,
+      "Lon": 140.128098
+    },
+    {
+      "Court": "浦河簡易裁判所",
+      "DistFam": "札幌地方裁判所浦河支部／札幌家庭裁判所浦河支部",
+      "High": null,
+      "Addr": "北海道浦河郡浦河町常盤町19番地",
+      "Lat": 42.166718,
+      "Lon": 142.780487
+    },
+    {
+      "Court": "深川簡易裁判所",
+      "DistFam": "旭川家庭裁判所深川出張所",
+      "High": null,
+      "Addr": "深川市2条1番4号",
+      "Lat": 43.7169,
+      "Lon": 142.031113
+    },
+    {
+      "Court": "滝川簡易裁判所",
+      "DistFam": "札幌地方裁判所滝川支部／札幌家庭裁判所滝川支部",
+      "High": null,
+      "Addr": "北海道滝川市大町1-6-13",
+      "Lat": 43.557655,
+      "Lon": 141.913452
+    },
+    {
+      "Court": "留萌簡易裁判所",
+      "DistFam": "旭川地方裁判所留萌支部／旭川家庭裁判所留萌支部",
+      "High": null,
+      "Addr": "留萌市沖見町2",
+      "Lat": 43.933399,
+      "Lon": 141.637482
+    },
+    {
+      "Court": "稚内簡易裁判所",
+      "DistFam": "旭川地方裁判所稚内支部／旭川家庭裁判所稚内支部",
+      "High": null,
+      "Addr": "稚内市潮見1-3-10",
+      "Lat": 45.393784,
+      "Lon": 141.696838
+    },
+    {
+      "Court": "紋別簡易裁判所",
+      "DistFam": "旭川地方裁判所紋別支部／旭川家庭裁判所紋別支部",
+      "High": null,
+      "Addr": "紋別市潮見町1-5-48",
+      "Lat": 44.356632,
+      "Lon": 143.351791
+    },
+    {
+      "Court": "網走簡易裁判所",
+      "DistFam": "釧路地方裁判所網走支部／釧路家庭裁判所網走支部",
+      "High": null,
+      "Addr": "北海道網走市台町2丁目2-1",
+      "Lat": 44.017876,
+      "Lon": 144.280518
+    },
+    {
+      "Court": "苫小牧簡易裁判所",
+      "DistFam": "札幌地方裁判所苫小牧支部／札幌家庭裁判所苫小牧支部",
+      "High": null,
+      "Addr": "北海道苫小牧市旭町2-7-12",
+      "Lat": 42.630329,
+      "Lon": 141.603577
+    },
+    {
+      "Court": "遠軽簡易裁判所",
+      "DistFam": "釧路家庭裁判所遠軽出張所",
+      "High": null,
+      "Addr": "北海道紋別郡遠軽町1条通北2丁目3-25",
+      "Lat": 44.059982,
+      "Lon": 143.52829
+    },
+    {
+      "Court": "釧路簡易裁判所",
+      "DistFam": "釧路地方裁判所／釧路家庭裁判所",
+      "High": null,
+      "Addr": "北海道釧路市柏木町4-7",
+      "Lat": 42.971691,
+      "Lon": 144.390335
+    },
+    {
+      "Court": "静内簡易裁判所",
+      "DistFam": "札幌家庭裁判所静内出張所",
+      "High": null,
+      "Addr": "北海道日高郡新ひだか町静内こうせい町2-1-10",
+      "Lat": 42.345032,
+      "Lon": 142.370163
+    },
+    {
+      "Court": "むつ簡易裁判所",
+      "DistFam": "青森家庭裁判所むつ出張所",
+      "High": null,
+      "Addr": "青森県むつ市中央1-1-5",
+      "Lat": 41.29126,
+      "Lon": 141.191238
+    },
+    {
+      "Court": "五所川原簡易裁判所",
+      "DistFam": "青森地方裁判所五所川原支部／青森家庭裁判所五所川原支部",
+      "High": null,
+      "Addr": "青森県五所川原市字元町54",
+      "Lat": 40.804874,
+      "Lon": 140.442978
+    },
+    {
+      "Court": "八戸簡易裁判所",
+      "DistFam": "青森地方裁判所八戸支部／青森家庭裁判所八戸支部",
+      "High": null,
+      "Addr": "青森県八戸市根城9-13-6",
+      "Lat": 40.50803,
+      "Lon": 141.467743
+    },
+    {
+      "Court": "十和田簡易裁判所",
+      "DistFam": "青森地方裁判所十和田支部／青森家庭裁判所十和田支部",
+      "High": null,
+      "Addr": "青森県十和田市西二番町14-8",
+      "Lat": 40.613152,
+      "Lon": 141.20784
+    },
+    {
+      "Court": "弘前簡易裁判所",
+      "DistFam": "青森地方裁判所弘前支部／青森家庭裁判所弘前支部",
+      "High": null,
+      "Addr": "青森県弘前市下白銀町7",
+      "Lat": 40.603188,
+      "Lon": 140.466995
+    },
+    {
+      "Court": "野辺地簡易裁判所",
+      "DistFam": "青森家庭裁判所野辺地出張所",
+      "High": null,
+      "Addr": "青森県上北郡野辺地町字野辺地419",
+      "Lat": 40.868416,
+      "Lon": 141.120239
+    },
+    {
+      "Court": "青森簡易裁判所",
+      "DistFam": "青森地方裁判所／青森家庭裁判所",
+      "High": null,
+      "Addr": "青森県青森市長島1-3-26",
+      "Lat": 40.823372,
+      "Lon": 140.743286
+    },
+    {
+      "Court": "鰺ヶ沢簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "青森県西津軽郡鰺ヶ沢町大字米町38",
+      "Lat": 40.778992,
+      "Lon": 140.20636
+    },
+    {
+      "Court": "一関簡易裁判所",
+      "DistFam": "盛岡地方裁判所一関支部／盛岡家庭裁判所一関支部",
+      "High": null,
+      "Addr": "一関市城内3-6",
+      "Lat": 38.927189,
+      "Lon": 141.130783
+    },
+    {
+      "Court": "久慈簡易裁判所",
+      "DistFam": "盛岡家庭裁判所久慈出張所",
+      "High": null,
+      "Addr": "久慈市田屋町2-50-5",
+      "Lat": 40.195145,
+      "Lon": 141.774384
+    },
+    {
+      "Court": "二戸簡易裁判所",
+      "DistFam": "盛岡地方裁判所二戸支部／盛岡家庭裁判所二戸支部",
+      "High": null,
+      "Addr": "岩手県二戸市石切所字荷渡",
+      "Lat": 40.266624,
+      "Lon": 141.291702
+    },
+    {
+      "Court": "大船渡簡易裁判所",
+      "DistFam": "盛岡家庭裁判所大船渡出張所",
+      "High": null,
+      "Addr": "大船渡市盛町字宇津野沢9-3",
+      "Lat": 39.081081,
+      "Lon": 141.710495
+    },
+    {
+      "Court": "宮古簡易裁判所",
+      "DistFam": "盛岡地方裁判所宮古支部／盛岡家庭裁判所宮古支部",
+      "High": null,
+      "Addr": "宮古市宮町1-3-30",
+      "Lat": 39.638939,
+      "Lon": 141.943481
+    },
+    {
+      "Court": "水沢簡易裁判所",
+      "DistFam": "盛岡地方裁判所水沢支部／盛岡家庭裁判所水沢支部",
+      "High": null,
+      "Addr": "奥州市水沢大手町4-19",
+      "Lat": 39.144753,
+      "Lon": 141.141708
+    },
+    {
+      "Court": "盛岡簡易裁判所",
+      "DistFam": "盛岡地方裁判所／盛岡家庭裁判所",
+      "High": null,
+      "Addr": "盛岡市内丸9-1",
+      "Lat": 39.703629,
+      "Lon": 141.151321
+    },
+    {
+      "Court": "花巻簡易裁判所",
+      "DistFam": "盛岡地方裁判所花巻支部／盛岡家庭裁判所花巻支部",
+      "High": null,
+      "Addr": "花巻市花城町8-26",
+      "Lat": 39.388981,
+      "Lon": 141.117752
+    },
+    {
+      "Court": "遠野簡易裁判所",
+      "DistFam": "盛岡地方裁判所遠野支部／盛岡家庭裁判所遠野支部",
+      "High": null,
+      "Addr": "遠野市東舘町2-3",
+      "Lat": 39.32827,
+      "Lon": 141.528854
+    },
+    {
+      "Court": "釜石簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "釜石市大只越町1-7-5",
+      "Lat": 39.277126,
+      "Lon": 141.879791
+    },
+    {
+      "Court": "仙台簡易裁判所",
+      "DistFam": "仙台地方裁判所／仙台家庭裁判所",
+      "High": "仙台高等裁判所",
+      "Addr": "宮城県仙台市青葉区片平1-6-1",
+      "Lat": 38.256725,
+      "Lon": 140.868561
+    },
+    {
+      "Court": "古川簡易裁判所",
+      "DistFam": "仙台地方裁判所古川支部／仙台家庭裁判所古川支部",
+      "High": null,
+      "Addr": "宮城県大崎市古川駅南2-9-46",
+      "Lat": 38.567097,
+      "Lon": 140.969162
+    },
+    {
+      "Court": "大河原簡易裁判所",
+      "DistFam": "仙台地方裁判所大河原支部／仙台家庭裁判所大河原支部",
+      "High": null,
+      "Addr": "宮城県柴田郡大河原町字中川原9",
+      "Lat": 38.045815,
+      "Lon": 140.733765
+    },
+    {
+      "Court": "気仙沼簡易裁判所",
+      "DistFam": "仙台地方裁判所気仙沼支部／仙台家庭裁判所気仙沼支部",
+      "High": null,
+      "Addr": "宮城県気仙沼市河原田1-2-30",
+      "Lat": 38.900951,
+      "Lon": 141.576126
+    },
+    {
+      "Court": "登米簡易裁判所",
+      "DistFam": "仙台地方裁判所登米支部／仙台家庭裁判所登米支部",
+      "High": null,
+      "Addr": "宮城県登米市登米町寺池桜小路105-3",
+      "Lat": 38.655815,
+      "Lon": 141.281631
+    },
+    {
+      "Court": "石巻簡易裁判所",
+      "DistFam": "仙台地方裁判所石巻支部／仙台家庭裁判所石巻支部",
+      "High": null,
+      "Addr": "宮城県石巻市泉町4-4-28",
+      "Lat": 38.427078,
+      "Lon": 141.298874
+    },
+    {
+      "Court": "築館簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "宮城県栗原市築館薬師3-4-14",
+      "Lat": 38.733051,
+      "Lon": 141.01619
+    },
+    {
+      "Court": "大曲簡易裁判所",
+      "DistFam": "秋田地方裁判所大曲支部／秋田家庭裁判所大曲支部",
+      "High": null,
+      "Addr": "秋田県大仙市大曲日の出町1-20-4",
+      "Lat": 39.447342,
+      "Lon": 140.47583
+    },
+    {
+      "Court": "大館簡易裁判所",
+      "DistFam": "秋田地方裁判所大館支部／秋田家庭裁判所大館支部",
+      "High": null,
+      "Addr": "秋田県大館市字中城15",
+      "Lat": 40.27187,
+      "Lon": 140.565231
+    },
+    {
+      "Court": "本荘簡易裁判所",
+      "DistFam": "秋田地方裁判所本荘支部／秋田家庭裁判所本荘支部",
+      "High": null,
+      "Addr": "秋田県由利本荘市瓦谷地21",
+      "Lat": 39.385715,
+      "Lon": 140.044754
+    },
+    {
+      "Court": "横手簡易裁判所",
+      "DistFam": "秋田地方裁判所横手支部／秋田家庭裁判所横手支部",
+      "High": null,
+      "Addr": "秋田県横手市城南町2-1",
+      "Lat": 39.318043,
+      "Lon": 140.571228
+    },
+    {
+      "Court": "湯沢簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "秋田県湯沢市田町2-6-41",
+      "Lat": 39.157623,
+      "Lon": 140.489441
+    },
+    {
+      "Court": "男鹿簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "秋田県男鹿市船川港船川字化世沢21",
+      "Lat": 39.879539,
+      "Lon": 139.842743
+    },
+    {
+      "Court": "秋田簡易裁判所",
+      "DistFam": "秋田地方裁判所／秋田家庭裁判所",
+      "High": "仙台高等裁判所秋田支部",
+      "Addr": "秋田県秋田市山王7-1-1",
+      "Lat": 39.718166,
+      "Lon": 140.100235
+    },
+    {
+      "Court": "能代簡易裁判所",
+      "DistFam": "秋田地方裁判所能代支部／秋田家庭裁判所能代支部",
+      "High": null,
+      "Addr": "秋田県能代市上町1-15",
+      "Lat": 40.21204,
+      "Lon": 140.027969
+    },
+    {
+      "Court": "角館簡易裁判所",
+      "DistFam": "秋田家庭裁判所角館出張所",
+      "High": null,
+      "Addr": "秋田県仙北市角館町小館77-4",
+      "Lat": 39.589493,
+      "Lon": 140.561172
+    },
+    {
+      "Court": "鹿角簡易裁判所",
+      "DistFam": "秋田家庭裁判所鹿角出張所",
+      "High": null,
+      "Addr": "秋田県鹿角市花輪字下中島1-1",
+      "Lat": 40.191082,
+      "Lon": 140.783951
+    },
+    {
+      "Court": "山形簡易裁判所",
+      "DistFam": "山形地方裁判所／山形家庭裁判所",
+      "High": null,
+      "Addr": "山形県山形市旅篭町2-4-22",
+      "Lat": 38.25584,
+      "Lon": 140.340637
+    },
+    {
+      "Court": "新庄簡易裁判所",
+      "DistFam": "山形地方裁判所新庄支部／山形家庭裁判所新庄支部",
+      "High": null,
+      "Addr": "山形県新庄市住吉町4-27",
+      "Lat": 38.766953,
+      "Lon": 140.302032
+    },
+    {
+      "Court": "米沢簡易裁判所",
+      "DistFam": "山形地方裁判所米沢支部／山形家庭裁判所米沢支部",
+      "High": null,
+      "Addr": "山形県米沢市中央4-9-15",
+      "Lat": 37.917278,
+      "Lon": 140.107468
+    },
+    {
+      "Court": "赤湯簡易裁判所",
+      "DistFam": "山形家庭裁判所赤湯出張所",
+      "High": null,
+      "Addr": "山形県南陽市赤湯316",
+      "Lat": 38.046944,
+      "Lon": 140.163345
+    },
+    {
+      "Court": "酒田簡易裁判所",
+      "DistFam": "山形地方裁判所酒田支部／山形家庭裁判所酒田支部",
+      "High": null,
+      "Addr": "山形県酒田市日吉町1-5-27",
+      "Lat": 38.921017,
+      "Lon": 139.832306
+    },
+    {
+      "Court": "長井簡易裁判所",
+      "DistFam": "山形家庭裁判所長井出張所",
+      "High": null,
+      "Addr": "山形県長井市四ツ谷1-7-20",
+      "Lat": 38.098522,
+      "Lon": 140.03772
+    },
+    {
+      "Court": "鶴岡簡易裁判所",
+      "DistFam": "山形地方裁判所鶴岡支部／山形家庭裁判所鶴岡支部",
+      "High": null,
+      "Addr": "山形県鶴岡市馬場町5-23",
+      "Lat": 38.727829,
+      "Lon": 139.826309
+    },
+    {
+      "Court": "いわき簡易裁判所",
+      "DistFam": "福島地方裁判所いわき支部／福島家庭裁判所いわき支部",
+      "High": null,
+      "Addr": "いわき市平字八幡小路41",
+      "Lat": 37.059242,
+      "Lon": 140.883224
+    },
+    {
+      "Court": "会津若松簡易裁判所",
+      "DistFam": "福島地方裁判所会津若松支部／福島家庭裁判所会津若松支部",
+      "High": null,
+      "Addr": "会津若松市追手町6-6",
+      "Lat": 37.490387,
+      "Lon": 139.929611
+    },
+    {
+      "Court": "棚倉簡易裁判所",
+      "DistFam": "福島家庭裁判所棚倉出張所",
+      "High": null,
+      "Addr": "東白川郡棚倉町大字棚倉字南町78-1",
+      "Lat": 37.026138,
+      "Lon": 140.387848
+    },
+    {
+      "Court": "田島簡易裁判所",
+      "DistFam": "福島家庭裁判所田島出張所",
+      "High": null,
+      "Addr": "南会津郡南会津町田島字後原甲3483-3",
+      "Lat": 37.199474,
+      "Lon": 139.773575
+    },
+    {
+      "Court": "白河簡易裁判所",
+      "DistFam": "福島地方裁判所白河支部／福島家庭裁判所白河支部",
+      "High": null,
+      "Addr": "白河市郭内146",
+      "Lat": 37.132484,
+      "Lon": 140.217712
+    },
+    {
+      "Court": "相馬簡易裁判所",
+      "DistFam": "福島地方裁判所相馬支部／福島家庭裁判所相馬支部",
+      "High": null,
+      "Addr": "相馬市中村字大手先48-1",
+      "Lat": 37.795818,
+      "Lon": 140.916077
+    },
+    {
+      "Court": "福島富岡簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "双葉郡富岡町大字小浜字大膳町113",
+      "Lat": 37.332893,
+      "Lon": 141.011902
+    },
+    {
+      "Court": "福島簡易裁判所",
+      "DistFam": "福島地方裁判所／福島家庭裁判所",
+      "High": null,
+      "Addr": "福島市花園町5-38",
+      "Lat": 37.76128,
+      "Lon": 140.47403
+    },
+    {
+      "Court": "郡山簡易裁判所",
+      "DistFam": "福島地方裁判所郡山支部／福島家庭裁判所郡山支部",
+      "High": null,
+      "Addr": "郡山市麓山1-2-26",
+      "Lat": 37.395126,
+      "Lon": 140.376251
+    },
+    {
+      "Court": "下妻簡易裁判所",
+      "DistFam": "水戸地方裁判所下妻支部／水戸家庭裁判所下妻支部",
+      "High": null,
+      "Addr": "茨城県下妻市下妻乙99",
+      "Lat": 36.183586,
+      "Lon": 139.961685
+    },
+    {
+      "Court": "下館簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "茨城県筑西市乙237-6",
+      "Lat": 36.30957,
+      "Lon": 139.974106
+    },
+    {
+      "Court": "取手簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "茨城県取手市取手3-2-20",
+      "Lat": 35.896751,
+      "Lon": 140.064911
+    },
+    {
+      "Court": "古河簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "茨城県古河市東3-4-20",
+      "Lat": 36.195805,
+      "Lon": 139.713516
+    },
+    {
+      "Court": "土浦簡易裁判所",
+      "DistFam": "水戸地方裁判所土浦支部／水戸家庭裁判所土浦支部",
+      "High": null,
+      "Addr": "茨城県土浦市中央1-13-12",
+      "Lat": 36.083805,
+      "Lon": 140.199158
+    },
+    {
+      "Court": "常陸太田簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "茨城県常陸太田市木崎二町2019",
+      "Lat": 36.534367,
+      "Lon": 140.52626
+    },
+    {
+      "Court": "日立簡易裁判所",
+      "DistFam": "水戸地方裁判所日立支部／水戸家庭裁判所日立支部",
+      "High": null,
+      "Addr": "茨城県日立市幸町2-10-12",
+      "Lat": 36.590733,
+      "Lon": 140.655914
+    },
+    {
+      "Court": "水戸簡易裁判所",
+      "DistFam": "水戸地方裁判所／水戸家庭裁判所",
+      "High": null,
+      "Addr": "茨城県水戸市大町1-1-38",
+      "Lat": 36.376419,
+      "Lon": 140.473984
+    },
+    {
+      "Court": "石岡簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "茨城県石岡市府中1-6-3",
+      "Lat": 36.191944,
+      "Lon": 140.277481
+    },
+    {
+      "Court": "笠間簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "茨城県笠間市笠間1753",
+      "Lat": 36.377247,
+      "Lon": 140.249237
+    },
+    {
+      "Court": "麻生簡易裁判所",
+      "DistFam": "水戸地方裁判所麻生支部／水戸家庭裁判所麻生支部",
+      "High": null,
+      "Addr": "茨城県行方市麻生143",
+      "Lat": 35.986397,
+      "Lon": 140.485168
+    },
+    {
+      "Court": "龍ケ崎簡易裁判所",
+      "DistFam": "水戸地方裁判所龍ケ崎支部／水戸家庭裁判所龍ケ崎支部",
+      "High": null,
+      "Addr": "茨城県龍ケ崎市4918",
+      "Lat": 35.911667,
+      "Lon": 140.18222
+    },
+    {
+      "Court": "大田原簡易裁判所",
+      "DistFam": "宇都宮地方裁判所大田原支部／宇都宮家庭裁判所大田原支部",
+      "High": null,
+      "Addr": "栃木県大田原市中央2-3-25",
+      "Lat": 36.865501,
+      "Lon": 140.023651
+    },
+    {
+      "Court": "宇都宮簡易裁判所",
+      "DistFam": "宇都宮地方裁判所／宇都宮家庭裁判所",
+      "High": null,
+      "Addr": "栃木県宇都宮市小幡1-1-38",
+      "Lat": 36.562119,
+      "Lon": 139.875153
+    },
+    {
+      "Court": "小山簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "栃木県小山市八幡町1-2-11",
+      "Lat": 36.311192,
+      "Lon": 139.797318
+    },
+    {
+      "Court": "栃木簡易裁判所",
+      "DistFam": "宇都宮地方裁判所栃木支部／宇都宮家庭裁判所栃木支部",
+      "High": null,
+      "Addr": "栃木県栃木市旭町16-31",
+      "Lat": 36.377922,
+      "Lon": 139.736557
+    },
+    {
+      "Court": "真岡簡易裁判所",
+      "DistFam": "宇都宮地方裁判所真岡支部／宇都宮家庭裁判所真岡支部",
+      "High": null,
+      "Addr": "栃木県真岡市荒町5117-2",
+      "Lat": 36.441895,
+      "Lon": 140.015259
+    },
+    {
+      "Court": "足利簡易裁判所",
+      "DistFam": "宇都宮地方裁判所足利支部／宇都宮家庭裁判所足利支部",
+      "High": null,
+      "Addr": "栃木県足利市丸山町621",
+      "Lat": 36.33905,
+      "Lon": 139.458389
+    },
+    {
+      "Court": "中之条簡易裁判所",
+      "DistFam": "前橋家庭裁判所中之条出張所",
+      "High": null,
+      "Addr": "吾妻郡中之条町大字中之条町719-2",
+      "Lat": 36.583801,
+      "Lon": 138.831406
+    },
+    {
+      "Court": "伊勢崎簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "伊勢崎市今泉町1-1216-1",
+      "Lat": 36.309479,
+      "Lon": 139.206207
+    },
+    {
+      "Court": "前橋簡易裁判所",
+      "DistFam": "前橋地方裁判所／前橋家庭裁判所",
+      "High": null,
+      "Addr": "前橋市大手町3-1-34",
+      "Lat": 36.391586,
+      "Lon": 139.062576
+    },
+    {
+      "Court": "太田簡易裁判所",
+      "DistFam": "前橋地方裁判所太田支部／前橋家庭裁判所太田支部",
+      "High": null,
+      "Addr": "太田市浜町17-5",
+      "Lat": 36.290211,
+      "Lon": 139.373886
+    },
+    {
+      "Court": "桐生簡易裁判所",
+      "DistFam": "前橋地方裁判所桐生支部／前橋家庭裁判所桐生支部",
+      "High": null,
+      "Addr": "桐生市相生町2-371-5",
+      "Lat": 36.415165,
+      "Lon": 139.310654
+    },
+    {
+      "Court": "沼田簡易裁判所",
+      "DistFam": "前橋地方裁判所沼田支部／前橋家庭裁判所沼田支部",
+      "High": null,
+      "Addr": "沼田市材木町甲150",
+      "Lat": 36.648281,
+      "Lon": 139.048447
+    },
+    {
+      "Court": "群馬富岡簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "富岡市富岡1383-1",
+      "Lat": 36.257603,
+      "Lon": 138.893311
+    },
+    {
+      "Court": "藤岡簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "藤岡市藤岡812-4",
+      "Lat": 36.252304,
+      "Lon": 139.081253
+    },
+    {
+      "Court": "館林簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "館林市仲町2-36",
+      "Lat": 36.247028,
+      "Lon": 139.529419
+    },
+    {
+      "Court": "高崎簡易裁判所",
+      "DistFam": "前橋地方裁判所高崎支部／前橋家庭裁判所高崎支部",
+      "High": null,
+      "Addr": "高崎市高松町26-2",
+      "Lat": 36.321316,
+      "Lon": 139.003265
+    },
+    {
+      "Court": "さいたま簡易裁判所",
+      "DistFam": "さいたま地方裁判所／さいたま家庭裁判所",
+      "High": null,
+      "Addr": "埼玉県さいたま市浦和区高砂3-16-45",
+      "Lat": 35.856518,
+      "Lon": 139.648438
+    },
+    {
+      "Court": "久喜簡易裁判所",
+      "DistFam": "さいたま家庭裁判所久喜出張所",
+      "High": null,
+      "Addr": "埼玉県久喜市久喜東1-15-3",
+      "Lat": 36.062378,
+      "Lon": 139.679535
+    },
+    {
+      "Court": "大宮簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "埼玉県さいたま市大宮区高鼻町3-140",
+      "Lat": 35.91927,
+      "Lon": 139.62767
+    },
+    {
+      "Court": "川口簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "埼玉県川口市中青木2-22-5",
+      "Lat": 35.811314,
+      "Lon": 139.721725
+    },
+    {
+      "Court": "川越簡易裁判所",
+      "DistFam": "さいたま地方裁判所川越支部／さいたま家庭裁判所川越支部",
+      "High": null,
+      "Addr": "埼玉県川越市宮下町2-1-3",
+      "Lat": 35.927673,
+      "Lon": 139.485657
+    },
+    {
+      "Court": "所沢簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "埼玉県所沢市並木6-1-4",
+      "Lat": 35.801445,
+      "Lon": 139.47258
+    },
+    {
+      "Court": "本庄簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "埼玉県本庄市北堀1394-3",
+      "Lat": 36.225677,
+      "Lon": 139.187607
+    },
+    {
+      "Court": "熊谷簡易裁判所",
+      "DistFam": "さいたま地方裁判所熊谷支部／さいたま家庭裁判所熊谷支部",
+      "High": null,
+      "Addr": "埼玉県熊谷市宮町1-68",
+      "Lat": 36.147076,
+      "Lon": 139.385452
+    },
+    {
+      "Court": "秩父簡易裁判所",
+      "DistFam": "さいたま地方裁判所秩父支部／さいたま家庭裁判所秩父支部",
+      "High": null,
+      "Addr": "埼玉県秩父市上町2-9-12",
+      "Lat": 35.990623,
+      "Lon": 139.079086
+    },
+    {
+      "Court": "越谷簡易裁判所",
+      "DistFam": "さいたま地方裁判所越谷支部／さいたま家庭裁判所越谷支部",
+      "High": null,
+      "Addr": "埼玉県越谷市東越谷9-2-8",
+      "Lat": 35.897038,
+      "Lon": 139.806168
+    },
+    {
+      "Court": "飯能簡易裁判所",
+      "DistFam": "さいたま家庭裁判所飯能出張所",
+      "High": null,
+      "Addr": "埼玉県飯能市大字双柳371",
+      "Lat": 35.855453,
+      "Lon": 139.329514
+    },
+    {
+      "Court": "佐倉簡易裁判所",
+      "DistFam": "千葉地方裁判所佐倉支部／千葉家庭裁判所佐倉支部",
+      "High": null,
+      "Addr": "千葉県佐倉市弥勒町92",
+      "Lat": 35.719299,
+      "Lon": 140.236435
+    },
+    {
+      "Court": "佐原簡易裁判所",
+      "DistFam": "千葉地方裁判所佐原支部／千葉家庭裁判所佐原支部",
+      "High": null,
+      "Addr": "千葉県香取市佐原イ3375",
+      "Lat": 35.889767,
+      "Lon": 140.500229
+    },
+    {
+      "Court": "八日市場簡易裁判所",
+      "DistFam": "千葉地方裁判所八日市場支部／千葉家庭裁判所八日市場支部",
+      "High": null,
+      "Addr": "千葉県匝瑳市八日市場イ2760",
+      "Lat": 35.69883,
+      "Lon": 140.544052
+    },
+    {
+      "Court": "千葉一宮簡易裁判所",
+      "DistFam": "千葉地方裁判所一宮支部／千葉家庭裁判所一宮支部",
+      "High": null,
+      "Addr": "千葉県長生郡一宮町一宮2791",
+      "Lat": 35.375233,
+      "Lon": 140.363846
+    },
+    {
+      "Court": "千葉簡易裁判所",
+      "DistFam": "千葉地方裁判所／千葉家庭裁判所",
+      "High": null,
+      "Addr": "千葉県千葉市中央区中央4-11-27",
+      "Lat": 35.605728,
+      "Lon": 140.123291
+    },
+    {
+      "Court": "市川簡易裁判所",
+      "DistFam": "千葉家庭裁判所市川出張所",
+      "High": null,
+      "Addr": "千葉県市川市鬼高2-20-20",
+      "Lat": 35.715794,
+      "Lon": 139.93631
+    },
+    {
+      "Court": "木更津簡易裁判所",
+      "DistFam": "千葉地方裁判所木更津支部／千葉家庭裁判所木更津支部",
+      "High": null,
+      "Addr": "千葉県木更津市新田2-5-1",
+      "Lat": 35.378662,
+      "Lon": 139.921799
+    },
+    {
+      "Court": "東金簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "千葉県東金市田間2354-2",
+      "Lat": 35.566601,
+      "Lon": 140.365143
+    },
+    {
+      "Court": "松戸簡易裁判所",
+      "DistFam": "千葉地方裁判所松戸支部／千葉家庭裁判所松戸支部",
+      "High": null,
+      "Addr": "千葉県松戸市岩瀬無番地",
+      "Lat": 35.780781,
+      "Lon": 139.904358
+    },
+    {
+      "Court": "銚子簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "千葉県銚子市清川町4-9-4",
+      "Lat": 35.726475,
+      "Lon": 140.819748
+    },
+    {
+      "Court": "館山簡易裁判所",
+      "DistFam": "千葉地方裁判所館山支部／千葉家庭裁判所館山支部",
+      "High": null,
+      "Addr": "千葉県館山市北条1073",
+      "Lat": 34.991196,
+      "Lon": 139.870148
+    },
+    {
+      "Court": "伊豆大島簡易裁判所",
+      "DistFam": "東京家庭裁判所伊豆大島出張所",
+      "High": null,
+      "Addr": "東京都大島町元町字家の上445-10",
+      "Lat": 34.750164,
+      "Lon": 139.363083
+    },
+    {
+      "Court": "八丈島簡易裁判所",
+      "DistFam": "東京家庭裁判所八丈島出張所",
+      "High": null,
+      "Addr": "東京都八丈島八丈町大賀郷1485-1",
+      "Lat": 33.107437,
+      "Lon": 139.791901
+    },
+    {
+      "Court": "八王子簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "東京都八王子市明神町4-21-1",
+      "Lat": 35.66,
+      "Lon": 139.345459
+    },
+    {
+      "Court": "新島簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "東京都新島村本村3-2-2",
+      "Lat": 34.376625,
+      "Lon": 139.25795
+    },
+    {
+      "Court": "東京簡易裁判所",
+      "DistFam": "東京地方裁判所／東京家庭裁判所",
+      "High": "東京高等裁判所／知的財産高等裁判所",
+      "Addr": "東京都千代田区霞が関1-1-2",
+      "Lat": 35.67511,
+      "Lon": 139.752594
+    },
+    {
+      "Court": "武蔵野簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "東京都武蔵野市中町二丁目4番12号",
+      "Lat": 35.70647,
+      "Lon": 139.562363
+    },
+    {
+      "Court": "町田簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "東京都町田市森野2-28-11",
+      "Lat": 35.550232,
+      "Lon": 139.441467
+    },
+    {
+      "Court": "立川簡易裁判所",
+      "DistFam": "東京地方裁判所立川支部／東京家庭裁判所立川支部",
+      "High": null,
+      "Addr": "東京都立川市緑町10-4",
+      "Lat": 35.712479,
+      "Lon": 139.40863
+    },
+    {
+      "Court": "青梅簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "東京都青梅市師岡町1-1300-1",
+      "Lat": 35.792679,
+      "Lon": 139.277847
+    },
+    {
+      "Court": "保土ケ谷簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "神奈川県横浜市保土ケ谷区岡沢町239",
+      "Lat": 35.468174,
+      "Lon": 139.5979
+    },
+    {
+      "Court": "厚木簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "神奈川県厚木市寿町3-5-3",
+      "Lat": 35.444557,
+      "Lon": 139.362305
+    },
+    {
+      "Court": "小田原簡易裁判所",
+      "DistFam": "横浜地方裁判所小田原支部／横浜家庭裁判所小田原支部",
+      "High": null,
+      "Addr": "神奈川県小田原市本町1-7-9",
+      "Lat": 35.25013,
+      "Lon": 139.158646
+    },
+    {
+      "Court": "川崎簡易裁判所",
+      "DistFam": "横浜地方裁判所川崎支部／横浜家庭裁判所川崎支部",
+      "High": null,
+      "Addr": "神奈川県川崎市川崎区富士見1-1-3",
+      "Lat": 35.529778,
+      "Lon": 139.71022
+    },
+    {
+      "Court": "平塚簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "神奈川県平塚市見附町43-9",
+      "Lat": 35.330742,
+      "Lon": 139.340134
+    },
+    {
+      "Court": "横浜簡易裁判所",
+      "DistFam": "横浜地方裁判所／横浜家庭裁判所",
+      "High": null,
+      "Addr": "神奈川県横浜市中区日本大通9",
+      "Lat": 35.446644,
+      "Lon": 139.641769
+    },
+    {
+      "Court": "横須賀簡易裁判所",
+      "DistFam": "横浜地方裁判所横須賀支部／横浜家庭裁判所横須賀支部",
+      "High": null,
+      "Addr": "神奈川県横須賀市新港町1番地9",
+      "Lat": 35.282604,
+      "Lon": 139.674866
+    },
+    {
+      "Court": "相模原簡易裁判所",
+      "DistFam": "横浜地方裁判所相模原支部／横浜家庭裁判所相模原支部",
+      "High": null,
+      "Addr": "神奈川県相模原市中央区富士見6-10-1",
+      "Lat": 35.569454,
+      "Lon": 139.375763
+    },
+    {
+      "Court": "神奈川簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "神奈川県横浜市神奈川区西神奈川1-11-1",
+      "Lat": 35.480125,
+      "Lon": 139.631393
+    },
+    {
+      "Court": "藤沢簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "神奈川県藤沢市朝日町1-8",
+      "Lat": 35.339535,
+      "Lon": 139.491074
+    },
+    {
+      "Court": "鎌倉簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "神奈川県鎌倉市由比ガ浜2-23-22",
+      "Lat": 35.311382,
+      "Lon": 139.547485
+    },
+    {
+      "Court": "三条簡易裁判所",
+      "DistFam": "新潟地方裁判所三条支部／新潟家庭裁判所三条支部",
+      "High": null,
+      "Addr": "新潟県三条市東三条2－2－2",
+      "Lat": 37.630291,
+      "Lon": 138.974304
+    },
+    {
+      "Court": "佐渡簡易裁判所",
+      "DistFam": "新潟地方裁判所佐渡支部／新潟家庭裁判所佐渡支部",
+      "High": null,
+      "Addr": "新潟県佐渡市中原356－2",
+      "Lat": 38.003643,
+      "Lon": 138.319412
+    },
+    {
+      "Court": "十日町簡易裁判所",
+      "DistFam": "新潟家庭裁判所十日町出張所",
+      "High": null,
+      "Addr": "新潟県十日町市稲荷町3丁目南3番地1",
+      "Lat": 37.13652,
+      "Lon": 138.75444
+    },
+    {
+      "Court": "南魚沼簡易裁判所",
+      "DistFam": "新潟家庭裁判所南魚沼出張所",
+      "High": null,
+      "Addr": "新潟県南魚沼市六日町1884一子",
+      "Lat": 37.061928,
+      "Lon": 138.87822
+    },
+    {
+      "Court": "新津簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "新潟県新潟市秋葉区新津4532－5",
+      "Lat": 37.790695,
+      "Lon": 139.112961
+    },
+    {
+      "Court": "新潟簡易裁判所",
+      "DistFam": "新潟地方裁判所／新潟家庭裁判所",
+      "High": null,
+      "Addr": "新潟市中央区学校町通1－1",
+      "Lat": 37.916599,
+      "Lon": 139.038834
+    },
+    {
+      "Court": "新発田簡易裁判所",
+      "DistFam": "新潟地方裁判所新発田支部／新潟家庭裁判所新発田支部",
+      "High": null,
+      "Addr": "新潟県新発田市中央町4－3－27",
+      "Lat": 37.949951,
+      "Lon": 139.328125
+    },
+    {
+      "Court": "村上簡易裁判所",
+      "DistFam": "新潟家庭裁判所村上出張所",
+      "High": null,
+      "Addr": "新潟県村上市三之町8－16",
+      "Lat": 38.224461,
+      "Lon": 139.48056
+    },
+    {
+      "Court": "柏崎簡易裁判所",
+      "DistFam": "新潟家庭裁判所柏崎出張所",
+      "High": null,
+      "Addr": "新潟県柏崎市諏訪町10－37",
+      "Lat": 37.373798,
+      "Lon": 138.560394
+    },
+    {
+      "Court": "糸魚川簡易裁判所",
+      "DistFam": "新潟家庭裁判所糸魚川出張所",
+      "High": null,
+      "Addr": "新潟県糸魚川市寺町2－8－23",
+      "Lat": 37.04586,
+      "Lon": 137.865479
+    },
+    {
+      "Court": "長岡簡易裁判所",
+      "DistFam": "新潟地方裁判所長岡支部／新潟家庭裁判所長岡支部",
+      "High": null,
+      "Addr": "新潟県長岡市三和3－9－28",
+      "Lat": 37.434307,
+      "Lon": 138.838882
+    },
+    {
+      "Court": "高田簡易裁判所",
+      "DistFam": "新潟地方裁判所高田支部／新潟家庭裁判所高田支部",
+      "High": null,
+      "Addr": "新潟県上越市大手町1－26",
+      "Lat": 37.109135,
+      "Lon": 138.245712
+    },
+    {
+      "Court": "富山簡易裁判所",
+      "DistFam": "富山地方裁判所／富山家庭裁判所",
+      "High": null,
+      "Addr": "富山市西田地方町2-9-1",
+      "Lat": 36.683826,
+      "Lon": 137.206757
+    },
+    {
+      "Court": "砺波簡易裁判所",
+      "DistFam": "富山家庭裁判所砺波出張所",
+      "High": null,
+      "Addr": "富山県砺波市広上町8-24",
+      "Lat": 36.633972,
+      "Lon": 136.94725
+    },
+    {
+      "Court": "高岡簡易裁判所",
+      "DistFam": "富山地方裁判所高岡支部／富山家庭裁判所高岡支部",
+      "High": null,
+      "Addr": "富山県高岡市中川本町10-6",
+      "Lat": 36.748669,
+      "Lon": 137.024628
+    },
+    {
+      "Court": "魚津簡易裁判所",
+      "DistFam": "富山地方裁判所魚津支部／富山家庭裁判所魚津支部",
+      "High": null,
+      "Addr": "富山県魚津市本町1-10-60",
+      "Lat": 36.812515,
+      "Lon": 137.397034
+    },
+    {
+      "Court": "七尾簡易裁判所",
+      "DistFam": "金沢地方裁判所七尾支部／金沢家庭裁判所七尾支部",
+      "High": null,
+      "Addr": "石川県七尾市馬出町ハ部1-2",
+      "Lat": 37.046452,
+      "Lon": 136.959152
+    },
+    {
+      "Court": "小松簡易裁判所",
+      "DistFam": "金沢地方裁判所小松支部／金沢家庭裁判所小松支部",
+      "High": null,
+      "Addr": "石川県小松市小馬出町11",
+      "Lat": 36.407639,
+      "Lon": 136.448105
+    },
+    {
+      "Court": "珠洲簡易裁判所",
+      "DistFam": "金沢家庭裁判所珠洲出張所",
+      "High": null,
+      "Addr": "石川県珠洲市上戸町北方い46-3",
+      "Lat": 37.434692,
+      "Lon": 137.257599
+    },
+    {
+      "Court": "輪島簡易裁判所",
+      "DistFam": "金沢地方裁判所輪島支部／金沢家庭裁判所輪島支部",
+      "High": null,
+      "Addr": "石川県輪島市河井町15部49-2",
+      "Lat": 37.392998,
+      "Lon": 136.905121
+    },
+    {
+      "Court": "金沢簡易裁判所",
+      "DistFam": "金沢地方裁判所／金沢家庭裁判所",
+      "High": "名古屋高等裁判所金沢支部",
+      "Addr": "石川県金沢市丸の内7-1",
+      "Lat": 36.566624,
+      "Lon": 136.662582
+    },
+    {
+      "Court": "大野簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大野市弥生町1-11",
+      "Lat": 35.982388,
+      "Lon": 136.496857
+    },
+    {
+      "Court": "小浜簡易裁判所",
+      "DistFam": "福井家庭裁判所小浜出張所",
+      "High": null,
+      "Addr": "小浜市城内1-1-2",
+      "Lat": 35.503075,
+      "Lon": 135.747208
+    },
+    {
+      "Court": "敦賀簡易裁判所",
+      "DistFam": "福井地方裁判所敦賀支部／福井家庭裁判所敦賀支部",
+      "High": null,
+      "Addr": "敦賀市松栄町6-10",
+      "Lat": 35.652905,
+      "Lon": 136.062195
+    },
+    {
+      "Court": "武生簡易裁判所",
+      "DistFam": "福井地方裁判所武生支部／福井家庭裁判所武生支部",
+      "High": null,
+      "Addr": "越前市日野美2-6",
+      "Lat": 35.901028,
+      "Lon": 136.154053
+    },
+    {
+      "Court": "福井簡易裁判所",
+      "DistFam": "福井地方裁判所／福井家庭裁判所",
+      "High": null,
+      "Addr": "福井市春山1-1-1",
+      "Lat": 36.067093,
+      "Lon": 136.217636
+    },
+    {
+      "Court": "富士吉田簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "富士吉田市旭1-1-1",
+      "Lat": 35.494858,
+      "Lon": 138.794708
+    },
+    {
+      "Court": "甲府簡易裁判所",
+      "DistFam": "甲府地方裁判所／甲府家庭裁判所",
+      "High": null,
+      "Addr": "甲府市中央1-10-7",
+      "Lat": 35.660583,
+      "Lon": 138.568436
+    },
+    {
+      "Court": "都留簡易裁判所",
+      "DistFam": "甲府地方裁判所都留支部／甲府家庭裁判所都留支部",
+      "High": null,
+      "Addr": "都留市中央2-1-1",
+      "Lat": 35.552147,
+      "Lon": 138.907425
+    },
+    {
+      "Court": "鰍沢簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "南巨摩郡富士川町鰍沢7302",
+      "Lat": 35.548939,
+      "Lon": 138.458084
+    },
+    {
+      "Court": "上田簡易裁判所",
+      "DistFam": "長野地方裁判所上田支部／長野家庭裁判所上田支部",
+      "High": null,
+      "Addr": "長野県上田市中央西2－3－3",
+      "Lat": 36.408413,
+      "Lon": 138.24617
+    },
+    {
+      "Court": "伊那簡易裁判所",
+      "DistFam": "長野地方裁判所伊那支部／長野家庭裁判所伊那支部",
+      "High": null,
+      "Addr": "長野県伊那市西町4841",
+      "Lat": 35.838654,
+      "Lon": 137.95459
+    },
+    {
+      "Court": "佐久簡易裁判所",
+      "DistFam": "長野地方裁判所佐久支部／長野家庭裁判所佐久支部",
+      "High": null,
+      "Addr": "長野県佐久市岩村田1161",
+      "Lat": 36.275181,
+      "Lon": 138.474762
+    },
+    {
+      "Court": "大町簡易裁判所",
+      "DistFam": "長野家庭裁判所大町出張所",
+      "High": null,
+      "Addr": "長野県大町市大町4222－1",
+      "Lat": 36.508087,
+      "Lon": 137.85733
+    },
+    {
+      "Court": "岡谷簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "長野県岡谷市本町1－9－12",
+      "Lat": 36.057865,
+      "Lon": 138.042221
+    },
+    {
+      "Court": "木曾福島簡易裁判所",
+      "DistFam": "長野家庭裁判所木曾福島出張所",
+      "High": null,
+      "Addr": "長野県木曽郡木曽町福島6205－13",
+      "Lat": 35.843246,
+      "Lon": 137.690613
+    },
+    {
+      "Court": "松本簡易裁判所",
+      "DistFam": "長野地方裁判所松本支部／長野家庭裁判所松本支部",
+      "High": null,
+      "Addr": "長野県松本市丸の内10－35",
+      "Lat": 36.239697,
+      "Lon": 137.969406
+    },
+    {
+      "Court": "諏訪簡易裁判所",
+      "DistFam": "長野地方裁判所諏訪支部／長野家庭裁判所諏訪支部",
+      "High": null,
+      "Addr": "長野県諏訪市諏訪1－24－22",
+      "Lat": 36.045425,
+      "Lon": 138.118454
+    },
+    {
+      "Court": "長野簡易裁判所",
+      "DistFam": "長野地方裁判所／長野家庭裁判所",
+      "High": null,
+      "Addr": "長野県長野市旭町1108",
+      "Lat": 36.648537,
+      "Lon": 138.194824
+    },
+    {
+      "Court": "飯山簡易裁判所",
+      "DistFam": "長野家庭裁判所飯山出張所",
+      "High": null,
+      "Addr": "長野県飯山市大字飯山1123",
+      "Lat": 36.85252,
+      "Lon": 138.366211
+    },
+    {
+      "Court": "飯田簡易裁判所",
+      "DistFam": "長野地方裁判所飯田支部／長野家庭裁判所飯田支部",
+      "High": null,
+      "Addr": "長野県飯田市江戸町1－21",
+      "Lat": 35.517868,
+      "Lon": 137.829987
+    },
+    {
+      "Court": "中津川簡易裁判所",
+      "DistFam": "岐阜家庭裁判所中津川出張所",
+      "High": null,
+      "Addr": "中津川市かやの木町4-2",
+      "Lat": 35.485607,
+      "Lon": 137.50177
+    },
+    {
+      "Court": "多治見簡易裁判所",
+      "DistFam": "岐阜地方裁判所多治見支部／岐阜家庭裁判所多治見支部",
+      "High": null,
+      "Addr": "多治見市小田町1-22-1",
+      "Lat": 35.33881,
+      "Lon": 137.12851
+    },
+    {
+      "Court": "大垣簡易裁判所",
+      "DistFam": "岐阜地方裁判所大垣支部／岐阜家庭裁判所大垣支部",
+      "High": null,
+      "Addr": "大垣市丸の内1-22",
+      "Lat": 35.362446,
+      "Lon": 136.614273
+    },
+    {
+      "Court": "岐阜簡易裁判所",
+      "DistFam": "岐阜地方裁判所／岐阜家庭裁判所",
+      "High": null,
+      "Addr": "岐阜市美江寺町2-4-1",
+      "Lat": 35.424805,
+      "Lon": 136.759109
+    },
+    {
+      "Court": "御嵩簡易裁判所",
+      "DistFam": "岐阜地方裁判所御嵩支部／岐阜家庭裁判所御嵩支部",
+      "High": null,
+      "Addr": "可児郡御嵩町御嵩1177",
+      "Lat": 35.431469,
+      "Lon": 137.131836
+    },
+    {
+      "Court": "倉敷簡易裁判所",
+      "DistFam": "岡山地方裁判所倉敷支部／岡山家庭裁判所倉敷支部",
+      "High": null,
+      "Addr": "岡山県倉敷市幸町3-33",
+      "Lat": 34.602047,
+      "Lon": 133.773056
+    },
+    {
+      "Court": "児島簡易裁判所",
+      "DistFam": "岡山家庭裁判所児島出張所",
+      "High": null,
+      "Addr": "岡山県倉敷市児島小川1-4-14",
+      "Lat": 34.468235,
+      "Lon": 133.80835
+    },
+    {
+      "Court": "勝山簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "岡山県真庭市勝山628",
+      "Lat": 35.083023,
+      "Lon": 133.692245
+    },
+    {
+      "Court": "岡山簡易裁判所",
+      "DistFam": "岡山地方裁判所／岡山家庭裁判所",
+      "High": "広島高等裁判所岡山支部",
+      "Addr": "岡山市北区南方1-8-42",
+      "Lat": 34.671429,
+      "Lon": 133.92598
+    },
+    {
+      "Court": "新見簡易裁判所",
+      "DistFam": "岡山地方裁判所新見支部／岡山家庭裁判所新見支部",
+      "High": null,
+      "Addr": "岡山県新見市新見1222",
+      "Lat": 34.984528,
+      "Lon": 133.469757
+    },
+    {
+      "Court": "津山簡易裁判所",
+      "DistFam": "岡山地方裁判所津山支部／岡山家庭裁判所津山支部",
+      "High": null,
+      "Addr": "岡山県津山市椿高下52",
+      "Lat": 35.066254,
+      "Lon": 134.000961
+    },
+    {
+      "Court": "玉島簡易裁判所",
+      "DistFam": "岡山家庭裁判所玉島出張所",
+      "High": null,
+      "Addr": "岡山県倉敷市玉島1-2-43",
+      "Lat": 34.544979,
+      "Lon": 133.673798
+    },
+    {
+      "Court": "玉野簡易裁判所",
+      "DistFam": "岡山家庭裁判所玉野出張所",
+      "High": null,
+      "Addr": "岡山県玉野市宇野2-2-1",
+      "Lat": 34.492794,
+      "Lon": 133.943619
+    },
+    {
+      "Court": "笠岡簡易裁判所",
+      "DistFam": "岡山家庭裁判所笠岡出張所",
+      "High": null,
+      "Addr": "岡山県笠岡市笠岡1732",
+      "Lat": 34.509285,
+      "Lon": 133.511353
+    },
+    {
+      "Court": "高梁簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "岡山県高梁市片原町1",
+      "Lat": 34.79903,
+      "Lon": 133.61763
+    },
+    {
+      "Court": "三次簡易裁判所",
+      "DistFam": "広島地方裁判所三次支部／広島家庭裁判所三次支部",
+      "High": null,
+      "Addr": "広島県三次市三次町1725-1",
+      "Lat": 34.813725,
+      "Lon": 132.845398
+    },
+    {
+      "Court": "可部簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "広島県広島市安佐北区可部4-12-24",
+      "Lat": 34.516941,
+      "Lon": 132.508133
+    },
+    {
+      "Court": "呉簡易裁判所",
+      "DistFam": "広島地方裁判所呉支部／広島家庭裁判所呉支部",
+      "High": null,
+      "Addr": "広島県呉市西中央4-1-46",
+      "Lat": 34.250561,
+      "Lon": 132.56311
+    },
+    {
+      "Court": "大竹簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "広島県大竹市白石1-7-6",
+      "Lat": 34.213329,
+      "Lon": 132.217087
+    },
+    {
+      "Court": "尾道簡易裁判所",
+      "DistFam": "広島地方裁判所尾道支部／広島家庭裁判所尾道支部",
+      "High": null,
+      "Addr": "広島県尾道市新浜1-12-4",
+      "Lat": 34.40126,
+      "Lon": 133.181168
+    },
+    {
+      "Court": "広島簡易裁判所",
+      "DistFam": "広島地方裁判所／広島家庭裁判所",
+      "High": "広島高等裁判所",
+      "Addr": "広島県広島市中区上八丁堀2-43",
+      "Lat": 34.400799,
+      "Lon": 132.46254
+    },
+    {
+      "Court": "庄原簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "広島県庄原市西本町1-19-8",
+      "Lat": 34.854923,
+      "Lon": 133.016983
+    },
+    {
+      "Court": "府中簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "広島県府中市鵜飼町542-13",
+      "Lat": 34.567505,
+      "Lon": 133.246826
+    },
+    {
+      "Court": "東広島簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "広島県東広島市西条朝日町5-23",
+      "Lat": 34.426987,
+      "Lon": 132.747833
+    },
+    {
+      "Court": "福山簡易裁判所",
+      "DistFam": "広島地方裁判所福山支部／広島家庭裁判所福山支部",
+      "High": null,
+      "Addr": "広島県福山市三吉町1-7-1",
+      "Lat": 34.493668,
+      "Lon": 133.37355
+    },
+    {
+      "Court": "竹原簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "広島県竹原市竹原町3553",
+      "Lat": 34.346325,
+      "Lon": 132.906601
+    },
+    {
+      "Court": "下関簡易裁判所",
+      "DistFam": "山口地方裁判所下関支部／山口家庭裁判所下関支部",
+      "High": null,
+      "Addr": "山口県下関市上田中町8-2-2",
+      "Lat": 33.965572,
+      "Lon": 130.936768
+    },
+    {
+      "Court": "周南簡易裁判所",
+      "DistFam": "山口地方裁判所周南支部／山口家庭裁判所周南支部",
+      "High": null,
+      "Addr": "山口県周南市岐山通2-5",
+      "Lat": 34.056068,
+      "Lon": 131.8078
+    },
+    {
+      "Court": "宇部簡易裁判所",
+      "DistFam": "山口地方裁判所宇部支部／山口家庭裁判所宇部支部",
+      "High": null,
+      "Addr": "山口県宇部市琴芝町2-2-35",
+      "Lat": 33.952515,
+      "Lon": 131.254639
+    },
+    {
+      "Court": "山口簡易裁判所",
+      "DistFam": "山口地方裁判所／山口家庭裁判所",
+      "High": null,
+      "Addr": "山口県山口市駅通り1-6-1",
+      "Lat": 34.173687,
+      "Lon": 131.478821
+    },
+    {
+      "Court": "岩国簡易裁判所",
+      "DistFam": "山口地方裁判所岩国支部／山口家庭裁判所岩国支部",
+      "High": null,
+      "Addr": "山口県岩国市錦見1-16-45",
+      "Lat": 34.167927,
+      "Lon": 132.190704
+    },
+    {
+      "Court": "柳井簡易裁判所",
+      "DistFam": "山口家庭裁判所柳井出張所",
+      "High": null,
+      "Addr": "山口県柳井市山根10番20号",
+      "Lat": 33.967922,
+      "Lon": 132.116272
+    },
+    {
+      "Court": "船木簡易裁判所",
+      "DistFam": "山口家庭裁判所船木出張所",
+      "High": null,
+      "Addr": "山口県宇部市大字船木183",
+      "Lat": 34.044662,
+      "Lon": 131.224472
+    },
+    {
+      "Court": "萩簡易裁判所",
+      "DistFam": "山口地方裁判所萩支部／山口家庭裁判所萩支部",
+      "High": null,
+      "Addr": "山口県萩市大字江向469",
+      "Lat": 34.410034,
+      "Lon": 131.399139
+    },
+    {
+      "Court": "長門簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "山口県長門市東深川1342-2",
+      "Lat": 34.371391,
+      "Lon": 131.183594
+    },
+    {
+      "Court": "防府簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "山口県防府市寿町6-40",
+      "Lat": 34.05051,
+      "Lon": 131.562759
+    },
+    {
+      "Court": "吉野川簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "徳島県吉野川市川島町川島588",
+      "Lat": 34.065098,
+      "Lon": 134.321838
+    },
+    {
+      "Court": "徳島池田簡易裁判所",
+      "DistFam": "徳島家庭裁判所池田出張所",
+      "High": null,
+      "Addr": "徳島県三好市池田町マチ2494-7",
+      "Lat": 34.030701,
+      "Lon": 133.806839
+    },
+    {
+      "Court": "徳島簡易裁判所",
+      "DistFam": "徳島地方裁判所／徳島家庭裁判所",
+      "High": null,
+      "Addr": "徳島県徳島市徳島町1-5-1",
+      "Lat": 34.071033,
+      "Lon": 134.557343
+    },
+    {
+      "Court": "牟岐簡易裁判所",
+      "DistFam": "徳島家庭裁判所牟岐出張所",
+      "High": null,
+      "Addr": "徳島県海部郡牟岐町大字中村字本村54-2",
+      "Lat": 33.669632,
+      "Lon": 134.41864
+    },
+    {
+      "Court": "美馬簡易裁判所",
+      "DistFam": "徳島地方裁判所美馬支部／徳島家庭裁判所美馬支部",
+      "High": null,
+      "Addr": "徳島県美馬市脇町大字脇町1229-3",
+      "Lat": 34.070694,
+      "Lon": 134.146774
+    },
+    {
+      "Court": "阿南簡易裁判所",
+      "DistFam": "徳島地方裁判所阿南支部／徳島家庭裁判所阿南支部",
+      "High": null,
+      "Addr": "徳島県阿南市富岡町西池田口1-1",
+      "Lat": 33.917709,
+      "Lon": 134.656693
+    },
+    {
+      "Court": "鳴門簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "徳島県鳴門市撫養町立岩字七枚115",
+      "Lat": 34.173241,
+      "Lon": 134.613464
+    },
+    {
+      "Court": "丸亀簡易裁判所",
+      "DistFam": "高松地方裁判所丸亀支部／高松家庭裁判所丸亀支部",
+      "High": null,
+      "Addr": "香川県丸亀市大手町3-4-1",
+      "Lat": 34.287052,
+      "Lon": 133.796646
+    },
+    {
+      "Court": "善通寺簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "香川県善通寺市文京町3-1-1",
+      "Lat": 34.226612,
+      "Lon": 133.781906
+    },
+    {
+      "Court": "土庄簡易裁判所",
+      "DistFam": "高松家庭裁判所土庄出張所",
+      "High": null,
+      "Addr": "香川県小豆郡土庄町淵崎甲1430-1",
+      "Lat": 34.487343,
+      "Lon": 134.189377
+    },
+    {
+      "Court": "観音寺簡易裁判所",
+      "DistFam": "高松地方裁判所観音寺支部／高松家庭裁判所観音寺支部",
+      "High": null,
+      "Addr": "香川県観音寺市観音寺町甲2804-1",
+      "Lat": 34.129257,
+      "Lon": 133.647202
+    },
+    {
+      "Court": "高松簡易裁判所",
+      "DistFam": "高松地方裁判所／高松家庭裁判所",
+      "High": "高松高等裁判所",
+      "Addr": "香川県高松市丸の内2-27",
+      "Lat": 34.347084,
+      "Lon": 134.050232
+    },
+    {
+      "Court": "今治簡易裁判所",
+      "DistFam": "松山地方裁判所今治支部／松山家庭裁判所今治支部",
+      "High": null,
+      "Addr": "愛媛県今治市常盤町4-5-3",
+      "Lat": 34.063751,
+      "Lon": 132.998245
+    },
+    {
+      "Court": "八幡浜簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛媛県八幡浜市裁判所通1550-6",
+      "Lat": 33.465805,
+      "Lon": 132.424835
+    },
+    {
+      "Court": "四国中央簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛媛県四国中央市三島中央5-4-28",
+      "Lat": 33.977306,
+      "Lon": 133.541473
+    },
+    {
+      "Court": "大洲簡易裁判所",
+      "DistFam": "松山地方裁判所大洲支部／松山家庭裁判所大洲支部",
+      "High": null,
+      "Addr": "愛媛県大洲市大洲845",
+      "Lat": 33.506695,
+      "Lon": 132.539658
+    },
+    {
+      "Court": "宇和島簡易裁判所",
+      "DistFam": "松山地方裁判所宇和島支部／松山家庭裁判所宇和島支部",
+      "High": null,
+      "Addr": "愛媛県宇和島市鶴島町8-16",
+      "Lat": 33.226242,
+      "Lon": 132.566254
+    },
+    {
+      "Court": "愛南簡易裁判所",
+      "DistFam": "松山家庭裁判所愛南出張所",
+      "High": null,
+      "Addr": "愛媛県南宇和郡愛南町城辺甲3827",
+      "Lat": 32.96159,
+      "Lon": 132.588211
+    },
+    {
+      "Court": "新居浜簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛媛県新居浜市繁本町2-1",
+      "Lat": 33.9613,
+      "Lon": 133.283051
+    },
+    {
+      "Court": "松山簡易裁判所",
+      "DistFam": "松山地方裁判所／松山家庭裁判所",
+      "High": null,
+      "Addr": "愛媛県松山市一番町3-3-8",
+      "Lat": 33.842049,
+      "Lon": 132.768692
+    },
+    {
+      "Court": "西条簡易裁判所",
+      "DistFam": "松山地方裁判所西条支部／松山家庭裁判所西条支部",
+      "High": null,
+      "Addr": "愛媛県西条市明屋敷165",
+      "Lat": 33.919998,
+      "Lon": 133.180862
+    },
+    {
+      "Court": "中村簡易裁判所",
+      "DistFam": "高知地方裁判所中村支部／高知家庭裁判所中村支部",
+      "High": null,
+      "Addr": "四万十市中村山手通54-1",
+      "Lat": 32.992966,
+      "Lon": 132.930923
+    },
+    {
+      "Court": "安芸簡易裁判所",
+      "DistFam": "高知地方裁判所安芸支部／高知家庭裁判所安芸支部",
+      "High": null,
+      "Addr": "安芸市久世町9-25",
+      "Lat": 33.501453,
+      "Lon": 133.902374
+    },
+    {
+      "Court": "須崎簡易裁判所",
+      "DistFam": "高知地方裁判所須崎支部／高知家庭裁判所須崎支部",
+      "High": null,
+      "Addr": "須崎市鍛治町2-11",
+      "Lat": 33.391331,
+      "Lon": 133.288452
+    },
+    {
+      "Court": "高知簡易裁判所",
+      "DistFam": "高知地方裁判所／高知家庭裁判所",
+      "High": null,
+      "Addr": "高知市丸ノ内1-3-5",
+      "Lat": 33.558918,
+      "Lon": 133.529587
+    },
+    {
+      "Court": "うきは簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "福岡県うきは市吉井町343-6",
+      "Lat": 33.342522,
+      "Lon": 130.751236
+    },
+    {
+      "Court": "久留米簡易裁判所",
+      "DistFam": "福岡地方裁判所久留米支部／福岡家庭裁判所久留米支部",
+      "High": null,
+      "Addr": "福岡県久留米市篠山町21",
+      "Lat": 33.319473,
+      "Lon": 130.511307
+    },
+    {
+      "Court": "八女簡易裁判所",
+      "DistFam": "福岡地方裁判所八女支部／福岡家庭裁判所八女支部",
+      "High": null,
+      "Addr": "福岡県八女市本町537-4",
+      "Lat": 33.211037,
+      "Lon": 130.555649
+    },
+    {
+      "Court": "大牟田簡易裁判所",
+      "DistFam": "福岡地方裁判所大牟田支部／福岡家庭裁判所大牟田支部",
+      "High": null,
+      "Addr": "福岡県大牟田市白金町101",
+      "Lat": 33.022091,
+      "Lon": 130.437042
+    },
+    {
+      "Court": "宗像簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "福岡県宗像市田熊2-3-34",
+      "Lat": 33.801266,
+      "Lon": 130.536285
+    },
+    {
+      "Court": "小倉簡易裁判所",
+      "DistFam": "福岡地方裁判所小倉支部／福岡家庭裁判所小倉支部",
+      "High": null,
+      "Addr": "福岡県北九州市小倉北区金田1-4-1",
+      "Lat": 33.878761,
+      "Lon": 130.865463
+    },
+    {
+      "Court": "折尾簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "福岡県北九州市八幡西区折尾4-29-6",
+      "Lat": 33.864182,
+      "Lon": 130.710205
+    },
+    {
+      "Court": "柳川簡易裁判所",
+      "DistFam": "福岡地方裁判所柳川支部／福岡家庭裁判所柳川支部",
+      "High": null,
+      "Addr": "福岡県柳川市本町4",
+      "Lat": 33.165375,
+      "Lon": 130.407379
+    },
+    {
+      "Court": "甘木簡易裁判所",
+      "DistFam": "福岡家庭裁判所甘木出張所",
+      "High": null,
+      "Addr": "福岡県朝倉市菩提寺571",
+      "Lat": 33.419407,
+      "Lon": 130.663193
+    },
+    {
+      "Court": "田川簡易裁判所",
+      "DistFam": "福岡地方裁判所田川支部／福岡家庭裁判所田川支部",
+      "High": null,
+      "Addr": "福岡県田川市千代町1-5",
+      "Lat": 33.637348,
+      "Lon": 130.805573
+    },
+    {
+      "Court": "直方簡易裁判所",
+      "DistFam": "福岡地方裁判所直方支部／福岡家庭裁判所直方支部",
+      "High": null,
+      "Addr": "福岡県直方市丸山町1-4",
+      "Lat": 33.73539,
+      "Lon": 130.72551
+    },
+    {
+      "Court": "福岡簡易裁判所",
+      "DistFam": "福岡地方裁判所／福岡家庭裁判所",
+      "High": "福岡高等裁判所",
+      "Addr": "福岡県福岡市中央区六本松4-2-4",
+      "Lat": 33.576515,
+      "Lon": 130.378067
+    },
+    {
+      "Court": "行橋簡易裁判所",
+      "DistFam": "福岡地方裁判所行橋支部／福岡家庭裁判所行橋支部",
+      "High": null,
+      "Addr": "福岡県行橋市行事1-8-23",
+      "Lat": 33.735466,
+      "Lon": 130.978699
+    },
+    {
+      "Court": "飯塚簡易裁判所",
+      "DistFam": "福岡地方裁判所飯塚支部／福岡家庭裁判所飯塚支部",
+      "High": null,
+      "Addr": "福岡県飯塚市新立岩10-29",
+      "Lat": 33.647221,
+      "Lon": 130.690445
+    },
+    {
+      "Court": "伊万里簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "佐賀県伊万里市立花町4107",
+      "Lat": 33.276215,
+      "Lon": 129.884537
+    },
+    {
+      "Court": "佐賀簡易裁判所",
+      "DistFam": "佐賀地方裁判所／佐賀家庭裁判所",
+      "High": null,
+      "Addr": "佐賀県佐賀市中の小路3－22",
+      "Lat": 33.252964,
+      "Lon": 130.297211
+    },
+    {
+      "Court": "唐津簡易裁判所",
+      "DistFam": "佐賀地方裁判所唐津支部／佐賀家庭裁判所唐津支部",
+      "High": null,
+      "Addr": "佐賀県唐津市大名小路1－1",
+      "Lat": 33.449413,
+      "Lon": 129.970169
+    },
+    {
+      "Court": "武雄簡易裁判所",
+      "DistFam": "佐賀地方裁判所武雄支部／佐賀家庭裁判所武雄支部",
+      "High": null,
+      "Addr": "佐賀県武雄市武雄町大字武雄5660",
+      "Lat": 33.192493,
+      "Lon": 130.013367
+    },
+    {
+      "Court": "鳥栖簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "佐賀県鳥栖市秋葉町3－28－1",
+      "Lat": 33.372643,
+      "Lon": 130.511627
+    },
+    {
+      "Court": "鹿島簡易裁判所",
+      "DistFam": "佐賀家庭裁判所鹿島出張所",
+      "High": null,
+      "Addr": "佐賀県鹿島市大字高津原3575",
+      "Lat": 33.108452,
+      "Lon": 130.093445
+    },
+    {
+      "Court": "上県簡易裁判所",
+      "DistFam": "長崎家庭裁判所上県出張所",
+      "High": null,
+      "Addr": "長崎県対馬市上県町佐須奈甲639-22",
+      "Lat": 34.63253,
+      "Lon": 129.399475
+    },
+    {
+      "Court": "五島簡易裁判所",
+      "DistFam": "長崎地方裁判所五島支部／長崎家庭裁判所五島支部",
+      "High": null,
+      "Addr": "長崎県五島市栄町1-7",
+      "Lat": 32.695427,
+      "Lon": 128.845825
+    },
+    {
+      "Court": "佐世保簡易裁判所",
+      "DistFam": "長崎地方裁判所佐世保支部／長崎家庭裁判所佐世保支部",
+      "High": null,
+      "Addr": "長崎県佐世保市光月町9-4",
+      "Lat": 33.173584,
+      "Lon": 129.722733
+    },
+    {
+      "Court": "厳原簡易裁判所",
+      "DistFam": "長崎地方裁判所厳原支部／長崎家庭裁判所厳原支部",
+      "High": null,
+      "Addr": "長崎県対馬市厳原町中村642-1",
+      "Lat": 34.207375,
+      "Lon": 129.289627
+    },
+    {
+      "Court": "壱岐簡易裁判所",
+      "DistFam": "長崎地方裁判所壱岐支部／長崎家庭裁判所壱岐支部",
+      "High": null,
+      "Addr": "長崎県壱岐市郷ノ浦町本村触624-1",
+      "Lat": 33.748852,
+      "Lon": 129.692322
+    },
+    {
+      "Court": "大村簡易裁判所",
+      "DistFam": "長崎地方裁判所大村支部／長崎家庭裁判所大村支部",
+      "High": null,
+      "Addr": "長崎県大村市東本町287",
+      "Lat": 32.906815,
+      "Lon": 129.962296
+    },
+    {
+      "Court": "島原簡易裁判所",
+      "DistFam": "長崎地方裁判所島原支部／長崎家庭裁判所島原支部",
+      "High": null,
+      "Addr": "長崎県島原市城内1-1195-1",
+      "Lat": 32.788067,
+      "Lon": 130.367508
+    },
+    {
+      "Court": "平戸簡易裁判所",
+      "DistFam": "長崎地方裁判所平戸支部／長崎家庭裁判所平戸支部",
+      "High": null,
+      "Addr": "長崎県平戸市戸石川町460",
+      "Lat": 33.364006,
+      "Lon": 129.549728
+    },
+    {
+      "Court": "新上五島簡易裁判所",
+      "DistFam": "長崎家庭裁判所新上五島出張所",
+      "High": null,
+      "Addr": "長崎県南松浦郡新上五島町有川郷2276-5",
+      "Lat": 32.973724,
+      "Lon": 129.111542
+    },
+    {
+      "Court": "諫早簡易裁判所",
+      "DistFam": "長崎家庭裁判所諫早出張所",
+      "High": null,
+      "Addr": "長崎県諫早市永昌東町24-12",
+      "Lat": 32.856152,
+      "Lon": 130.042892
+    },
+    {
+      "Court": "長崎簡易裁判所",
+      "DistFam": "長崎地方裁判所／長崎家庭裁判所",
+      "High": null,
+      "Addr": "長崎市万才町6-25",
+      "Lat": 32.745911,
+      "Lon": 129.874741
+    },
+    {
+      "Court": "人吉簡易裁判所",
+      "DistFam": "熊本地方裁判所人吉支部／熊本家庭裁判所人吉支部",
+      "High": null,
+      "Addr": "熊本県人吉市寺町1",
+      "Lat": 32.207863,
+      "Lon": 130.761292
+    },
+    {
+      "Court": "八代簡易裁判所",
+      "DistFam": "熊本地方裁判所八代支部／熊本家庭裁判所八代支部",
+      "High": null,
+      "Addr": "熊本県八代市西松江城町1-41",
+      "Lat": 32.508801,
+      "Lon": 130.597351
+    },
+    {
+      "Court": "天草簡易裁判所",
+      "DistFam": "熊本地方裁判所天草支部／熊本家庭裁判所天草支部",
+      "High": null,
+      "Addr": "熊本県天草市諏訪町16-24",
+      "Lat": 32.453144,
+      "Lon": 130.187164
+    },
+    {
+      "Court": "宇城簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "熊本県宇城市三角町波多438-18",
+      "Lat": 32.626102,
+      "Lon": 130.485626
+    },
+    {
+      "Court": "山鹿簡易裁判所",
+      "DistFam": "熊本地方裁判所山鹿支部／熊本家庭裁判所山鹿支部",
+      "High": null,
+      "Addr": "熊本県山鹿市山鹿280",
+      "Lat": 33.011684,
+      "Lon": 130.692688
+    },
+    {
+      "Court": "御船簡易裁判所",
+      "DistFam": "熊本家庭裁判所御船出張所",
+      "High": null,
+      "Addr": "熊本県上益城郡御船町辺田見1250-1",
+      "Lat": 32.706211,
+      "Lon": 130.799545
+    },
+    {
+      "Court": "水俣簡易裁判所",
+      "DistFam": "熊本家庭裁判所水俣出張所",
+      "High": null,
+      "Addr": "熊本県水俣市天神町1-1-1",
+      "Lat": 32.210556,
+      "Lon": 130.404236
+    },
+    {
+      "Court": "熊本簡易裁判所",
+      "DistFam": "熊本地方裁判所／熊本家庭裁判所",
+      "High": null,
+      "Addr": "熊本県熊本市中央区京町1-13-11",
+      "Lat": 32.811985,
+      "Lon": 130.706207
+    },
+    {
+      "Court": "牛深簡易裁判所",
+      "DistFam": "熊本家庭裁判所牛深出張所",
+      "High": null,
+      "Addr": "熊本県天草市牛深町2061-17",
+      "Lat": 32.197884,
+      "Lon": 130.015869
+    },
+    {
+      "Court": "玉名簡易裁判所",
+      "DistFam": "熊本地方裁判所玉名支部／熊本家庭裁判所玉名支部",
+      "High": null,
+      "Addr": "熊本県玉名市繁根木54-8",
+      "Lat": 32.928337,
+      "Lon": 130.556961
+    },
+    {
+      "Court": "荒尾簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "熊本県荒尾市荒尾1588",
+      "Lat": 32.977013,
+      "Lon": 130.436111
+    },
+    {
+      "Court": "阿蘇簡易裁判所",
+      "DistFam": "熊本地方裁判所阿蘇支部／熊本家庭裁判所阿蘇支部",
+      "High": null,
+      "Addr": "熊本県阿蘇市一の宮町宮地2476-1",
+      "Lat": 32.944958,
+      "Lon": 131.114304
+    },
+    {
+      "Court": "高森簡易裁判所",
+      "DistFam": "熊本家庭裁判所高森出張所",
+      "High": null,
+      "Addr": "熊本県阿蘇郡高森町高森1385-6",
+      "Lat": 32.820675,
+      "Lon": 131.130829
+    },
+    {
+      "Court": "郡上簡易裁判所",
+      "DistFam": "岐阜家庭裁判所郡上出張所",
+      "High": null,
+      "Addr": "郡上市八幡町殿町63-2",
+      "Lat": 35.75246,
+      "Lon": 136.957428
+    },
+    {
+      "Court": "高山簡易裁判所",
+      "DistFam": "岐阜地方裁判所高山支部／岐阜家庭裁判所高山支部",
+      "High": null,
+      "Addr": "高山市花岡町2-63-3",
+      "Lat": 36.145611,
+      "Lon": 137.251129
+    },
+    {
+      "Court": "三島簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "静岡県三島市文教町1-3-1",
+      "Lat": 35.128101,
+      "Lon": 138.914368
+    },
+    {
+      "Court": "下田簡易裁判所",
+      "DistFam": "静岡地方裁判所下田支部／静岡家庭裁判所下田支部",
+      "High": null,
+      "Addr": "静岡県下田市4-7-34",
+      "Lat": 34.673382,
+      "Lon": 138.941498
+    },
+    {
+      "Court": "富士簡易裁判所",
+      "DistFam": "静岡地方裁判所富士支部／静岡家庭裁判所富士支部",
+      "High": null,
+      "Addr": "静岡県富士市中央町2-7-1",
+      "Lat": 35.16011,
+      "Lon": 138.681824
+    },
+    {
+      "Court": "島田簡易裁判所",
+      "DistFam": "静岡家庭裁判所島田出張所",
+      "High": null,
+      "Addr": "静岡県島田市中溝4-11-10",
+      "Lat": 34.836899,
+      "Lon": 138.172424
+    },
+    {
+      "Court": "掛川簡易裁判所",
+      "DistFam": "静岡地方裁判所掛川支部／静岡家庭裁判所掛川支部",
+      "High": null,
+      "Addr": "静岡県掛川市亀の甲2-16-1",
+      "Lat": 34.766376,
+      "Lon": 138.01152
+    },
+    {
+      "Court": "沼津簡易裁判所",
+      "DistFam": "静岡地方裁判所沼津支部／静岡家庭裁判所沼津支部",
+      "High": null,
+      "Addr": "静岡県沼津市御幸町21-1",
+      "Lat": 35.094761,
+      "Lon": 138.864426
+    },
+    {
+      "Court": "浜松簡易裁判所",
+      "DistFam": "静岡地方裁判所浜松支部／静岡家庭裁判所浜松支部",
+      "High": null,
+      "Addr": "静岡県浜松市中央区中央1-12-5",
+      "Lat": 34.711269,
+      "Lon": 137.734818
+    },
+    {
+      "Court": "清水簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "静岡県静岡市清水区天神1-6-15",
+      "Lat": 35.025974,
+      "Lon": 138.479736
+    },
+    {
+      "Court": "熱海簡易裁判所",
+      "DistFam": "静岡家庭裁判所熱海出張所",
+      "High": null,
+      "Addr": "静岡県熱海市春日町3-14",
+      "Lat": 35.10247,
+      "Lon": 139.079559
+    },
+    {
+      "Court": "静岡簡易裁判所",
+      "DistFam": "静岡地方裁判所／静岡家庭裁判所",
+      "High": null,
+      "Addr": "静岡県静岡市葵区追手町10-80",
+      "Lat": 34.979546,
+      "Lon": 138.380692
+    },
+    {
+      "Court": "一宮簡易裁判所",
+      "DistFam": "名古屋地方裁判所一宮支部／名古屋家庭裁判所一宮支部",
+      "High": null,
+      "Addr": "愛知県一宮市公園通4-17",
+      "Lat": 35.295872,
+      "Lon": 136.803986
+    },
+    {
+      "Court": "半田簡易裁判所",
+      "DistFam": "名古屋地方裁判所半田支部／名古屋家庭裁判所半田支部",
+      "High": null,
+      "Addr": "愛知県半田市宮路町200-2",
+      "Lat": 34.903481,
+      "Lon": 136.926071
+    },
+    {
+      "Court": "名古屋簡易裁判所",
+      "DistFam": "名古屋地方裁判所／名古屋家庭裁判所",
+      "High": "名古屋高等裁判所",
+      "Addr": "愛知県名古屋市中区三の丸1-7-1",
+      "Lat": 35.178574,
+      "Lon": 136.898773
+    },
+    {
+      "Court": "安城簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛知県安城市横山町毛賀知24-2",
+      "Lat": 34.958248,
+      "Lon": 137.076843
+    },
+    {
+      "Court": "岡崎簡易裁判所",
+      "DistFam": "名古屋地方裁判所岡崎支部／名古屋家庭裁判所岡崎支部",
+      "High": null,
+      "Addr": "愛知県岡崎市明大寺町奈良井3",
+      "Lat": 34.941429,
+      "Lon": 137.164978
+    },
+    {
+      "Court": "新城簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛知県新城市北畑40-2",
+      "Lat": 34.898212,
+      "Lon": 137.489487
+    },
+    {
+      "Court": "春日井簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛知県春日井市八幡町1-1",
+      "Lat": 35.236504,
+      "Lon": 136.956635
+    },
+    {
+      "Court": "津島簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛知県津島市西柳原町3-11",
+      "Lat": 35.180649,
+      "Lon": 136.73317
+    },
+    {
+      "Court": "瀬戸簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛知県瀬戸市陶原町5-73",
+      "Lat": 35.221951,
+      "Lon": 137.086884
+    },
+    {
+      "Court": "犬山簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛知県犬山市松本町2-12",
+      "Lat": 35.380817,
+      "Lon": 136.948792
+    },
+    {
+      "Court": "豊橋簡易裁判所",
+      "DistFam": "名古屋地方裁判所豊橋支部／名古屋家庭裁判所豊橋支部",
+      "High": null,
+      "Addr": "愛知県豊橋市大国町110",
+      "Lat": 34.759716,
+      "Lon": 137.390778
+    },
+    {
+      "Court": "豊田簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "愛知県豊田市十塚町1-25-1",
+      "Lat": 35.080303,
+      "Lon": 137.157227
+    },
+    {
+      "Court": "伊勢簡易裁判所",
+      "DistFam": "津地方裁判所伊勢支部／津家庭裁判所伊勢支部",
+      "High": null,
+      "Addr": "三重県伊勢市岡本1-2-6",
+      "Lat": 34.48698,
+      "Lon": 136.709824
+    },
+    {
+      "Court": "伊賀簡易裁判所",
+      "DistFam": "津地方裁判所伊賀支部／津家庭裁判所伊賀支部",
+      "High": null,
+      "Addr": "三重県伊賀市上野丸之内130-1",
+      "Lat": 34.768505,
+      "Lon": 136.130157
+    },
+    {
+      "Court": "四日市簡易裁判所",
+      "DistFam": "津地方裁判所四日市支部／津家庭裁判所四日市支部",
+      "High": null,
+      "Addr": "三重県四日市市三栄町1-22",
+      "Lat": 34.964222,
+      "Lon": 136.623917
+    },
+    {
+      "Court": "尾鷲簡易裁判所",
+      "DistFam": "津家庭裁判所尾鷲出張所",
+      "High": null,
+      "Addr": "三重県尾鷲市中央町6-23",
+      "Lat": 34.07029,
+      "Lon": 136.192963
+    },
+    {
+      "Court": "松阪簡易裁判所",
+      "DistFam": "津地方裁判所松阪支部／津家庭裁判所松阪支部",
+      "High": null,
+      "Addr": "三重県松阪市中央町36-1",
+      "Lat": 34.579613,
+      "Lon": 136.539551
+    },
+    {
+      "Court": "桑名簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "三重県桑名市吉之丸12",
+      "Lat": 35.061928,
+      "Lon": 136.698853
+    },
+    {
+      "Court": "津簡易裁判所",
+      "DistFam": "津地方裁判所／津家庭裁判所",
+      "High": null,
+      "Addr": "三重県津市中央3-1",
+      "Lat": 34.719025,
+      "Lon": 136.508453
+    },
+    {
+      "Court": "熊野簡易裁判所",
+      "DistFam": "津地方裁判所熊野支部／津家庭裁判所熊野支部",
+      "High": null,
+      "Addr": "三重県熊野市井戸町784",
+      "Lat": 33.890305,
+      "Lon": 136.09552
+    },
+    {
+      "Court": "鈴鹿簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "三重県鈴鹿市神戸3-25-3",
+      "Lat": 34.876511,
+      "Lon": 136.585953
+    },
+    {
+      "Court": "大津簡易裁判所",
+      "DistFam": "大津地方裁判所／大津家庭裁判所",
+      "High": null,
+      "Addr": "滋賀県大津市京町3-1-2",
+      "Lat": 35.004246,
+      "Lon": 135.865417
+    },
+    {
+      "Court": "彦根簡易裁判所",
+      "DistFam": "大津地方裁判所彦根支部／大津家庭裁判所彦根支部",
+      "High": null,
+      "Addr": "滋賀県彦根市駅東町１－１３",
+      "Lat": 35.274445,
+      "Lon": 136.25972
+    },
+    {
+      "Court": "東近江簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "滋賀県東近江市八日市緑町8-16",
+      "Lat": 35.113373,
+      "Lon": 136.206284
+    },
+    {
+      "Court": "甲賀簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "滋賀県甲賀市水口町水口5675-1",
+      "Lat": 34.96788,
+      "Lon": 136.165405
+    },
+    {
+      "Court": "長浜簡易裁判所",
+      "DistFam": "大津地方裁判所長浜支部／大津家庭裁判所長浜支部",
+      "High": null,
+      "Addr": "滋賀県長浜市南呉服町6-22",
+      "Lat": 35.381119,
+      "Lon": 136.265182
+    },
+    {
+      "Court": "高島簡易裁判所",
+      "DistFam": "大津家庭裁判所高島出張所",
+      "High": null,
+      "Addr": "滋賀県高島市今津町住吉1-3-8",
+      "Lat": 35.4007,
+      "Lon": 136.034454
+    },
+    {
+      "Court": "亀岡簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "京都府亀岡市安町野々神31-10",
+      "Lat": 35.014156,
+      "Lon": 135.571701
+    },
+    {
+      "Court": "京丹後簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "京都府京丹後市峰山町杉谷288-2",
+      "Lat": 35.623489,
+      "Lon": 135.063156
+    },
+    {
+      "Court": "京都簡易裁判所",
+      "DistFam": "京都地方裁判所／京都家庭裁判所",
+      "High": null,
+      "Addr": "京都市中京区菊屋町",
+      "Lat": 35.009846,
+      "Lon": 135.764496
+    },
+    {
+      "Court": "伏見簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "京都市伏見区桃山町泰長老",
+      "Lat": 34.929886,
+      "Lon": 135.771057
+    },
+    {
+      "Court": "右京簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "京都市右京区太秦蜂岡町29",
+      "Lat": 35.013969,
+      "Lon": 135.708984
+    },
+    {
+      "Court": "向日町簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "京都府向日市鶏冠井町西金村5-2",
+      "Lat": 34.943249,
+      "Lon": 135.717636
+    },
+    {
+      "Court": "園部簡易裁判所",
+      "DistFam": "京都地方裁判所園部支部／京都家庭裁判所園部支部",
+      "High": null,
+      "Addr": "京都府南丹市園部町小桜町30",
+      "Lat": 35.108192,
+      "Lon": 135.470291
+    },
+    {
+      "Court": "宇治簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "京都府宇治市宇治琵琶33－3",
+      "Lat": 34.885136,
+      "Lon": 135.799255
+    },
+    {
+      "Court": "宮津簡易裁判所",
+      "DistFam": "京都地方裁判所宮津支部／京都家庭裁判所宮津支部",
+      "High": null,
+      "Addr": "京都府宮津市字島崎2043－1",
+      "Lat": 35.536671,
+      "Lon": 135.196304
+    },
+    {
+      "Court": "木津簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "京都府木津川市木津南垣外110",
+      "Lat": 34.736961,
+      "Lon": 135.820328
+    },
+    {
+      "Court": "福知山簡易裁判所",
+      "DistFam": "京都地方裁判所福知山支部／京都家庭裁判所福知山支部",
+      "High": null,
+      "Addr": "京都府福知山市字内記9",
+      "Lat": 35.299377,
+      "Lon": 135.123795
+    },
+    {
+      "Court": "舞鶴簡易裁判所",
+      "DistFam": "京都地方裁判所舞鶴支部／京都家庭裁判所舞鶴支部",
+      "High": null,
+      "Addr": "京都府舞鶴市字南田辺小字南裏町149",
+      "Lat": 35.446728,
+      "Lon": 135.33107
+    },
+    {
+      "Court": "佐野簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府泉佐野市上町1-4-5",
+      "Lat": 34.409184,
+      "Lon": 135.320908
+    },
+    {
+      "Court": "吹田簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府吹田市寿町1-5-5",
+      "Lat": 34.756557,
+      "Lon": 135.52124
+    },
+    {
+      "Court": "堺簡易裁判所",
+      "DistFam": "大阪地方裁判所堺支部／大阪家庭裁判所堺支部",
+      "High": null,
+      "Addr": "大阪府堺市堺区南瓦町2-28",
+      "Lat": 34.574379,
+      "Lon": 135.48201
+    },
+    {
+      "Court": "大阪池田簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府池田市満寿美町8-7",
+      "Lat": 34.818748,
+      "Lon": 135.42691
+    },
+    {
+      "Court": "大阪簡易裁判所",
+      "DistFam": "大阪地方裁判所／大阪家庭裁判所",
+      "High": "大阪高等裁判所",
+      "Addr": "大阪市北区西天満2-1-10",
+      "Lat": 34.695023,
+      "Lon": 135.503983
+    },
+    {
+      "Court": "富田林簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府富田林市谷川町2-22",
+      "Lat": 34.498604,
+      "Lon": 135.599075
+    },
+    {
+      "Court": "岸和田簡易裁判所",
+      "DistFam": "大阪地方裁判所岸和田支部／大阪家庭裁判所岸和田支部",
+      "High": null,
+      "Addr": "大阪府岸和田市加守町4-27-2",
+      "Lat": 34.472023,
+      "Lon": 135.392456
+    },
+    {
+      "Court": "東大阪簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府東大阪市高井田元町2-8-12",
+      "Lat": 34.664513,
+      "Lon": 135.575012
+    },
+    {
+      "Court": "枚方簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府枚方市大垣内町2-9-37",
+      "Lat": 34.81303,
+      "Lon": 135.652725
+    },
+    {
+      "Court": "羽曳野簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府羽曳野市誉田3-15-11",
+      "Lat": 34.558083,
+      "Lon": 135.608582
+    },
+    {
+      "Court": "茨木簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府茨木市駅前4-4-18",
+      "Lat": 34.818317,
+      "Lon": 135.567337
+    },
+    {
+      "Court": "豊中簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大阪府豊中市中桜塚3-11-2",
+      "Lat": 34.779243,
+      "Lon": 135.470642
+    },
+    {
+      "Court": "伊丹簡易裁判所",
+      "DistFam": "神戸地方裁判所伊丹支部／神戸家庭裁判所伊丹支部",
+      "High": null,
+      "Addr": "兵庫県伊丹市千僧1-47-1",
+      "Lat": 34.783333,
+      "Lon": 135.401901
+    },
+    {
+      "Court": "加古川簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "兵庫県加古川市加古川町粟津759",
+      "Lat": 34.762684,
+      "Lon": 134.831863
+    },
+    {
+      "Court": "姫路簡易裁判所",
+      "DistFam": "神戸地方裁判所姫路支部／神戸家庭裁判所姫路支部",
+      "High": null,
+      "Addr": "兵庫県姫路市北条1-250",
+      "Lat": 34.822098,
+      "Lon": 134.69606
+    },
+    {
+      "Court": "尼崎簡易裁判所",
+      "DistFam": "神戸地方裁判所尼崎支部／神戸家庭裁判所尼崎支部",
+      "High": null,
+      "Addr": "兵庫県尼崎市水堂町3-2-34",
+      "Lat": 34.744381,
+      "Lon": 135.397598
+    },
+    {
+      "Court": "明石簡易裁判所",
+      "DistFam": "神戸地方裁判所明石支部／神戸家庭裁判所明石支部",
+      "High": null,
+      "Addr": "兵庫県明石市天文町2-2-18",
+      "Lat": 34.645428,
+      "Lon": 135.000214
+    },
+    {
+      "Court": "柏原簡易裁判所",
+      "DistFam": "神戸地方裁判所柏原支部／神戸家庭裁判所柏原支部",
+      "High": null,
+      "Addr": "兵庫県丹波市柏原町柏原439",
+      "Lat": 35.129387,
+      "Lon": 135.081085
+    },
+    {
+      "Court": "洲本簡易裁判所",
+      "DistFam": "神戸地方裁判所洲本支部／神戸家庭裁判所洲本支部",
+      "High": null,
+      "Addr": "兵庫県洲本市山手1-1-18",
+      "Lat": 34.340504,
+      "Lon": 134.90097
+    },
+    {
+      "Court": "浜坂簡易裁判所",
+      "DistFam": "神戸家庭裁判所浜坂出張所",
+      "High": null,
+      "Addr": "兵庫県美方郡新温泉町芦屋6-1",
+      "Lat": 35.620731,
+      "Lon": 134.448654
+    },
+    {
+      "Court": "社簡易裁判所",
+      "DistFam": "神戸地方裁判所社支部／神戸家庭裁判所社支部",
+      "High": null,
+      "Addr": "兵庫県加東市社490-2",
+      "Lat": 34.914917,
+      "Lon": 134.968918
+    },
+    {
+      "Court": "神戸簡易裁判所",
+      "DistFam": "神戸地方裁判所／神戸家庭裁判所",
+      "High": null,
+      "Addr": "兵庫県神戸市中央区橘通2-2-1",
+      "Lat": 34.682735,
+      "Lon": 135.176208
+    },
+    {
+      "Court": "篠山簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "兵庫県丹波篠山市黒岡92",
+      "Lat": 35.078461,
+      "Lon": 135.220459
+    },
+    {
+      "Court": "西宮簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "兵庫県西宮市六湛寺町8-9",
+      "Lat": 34.738075,
+      "Lon": 135.343338
+    },
+    {
+      "Court": "豊岡簡易裁判所",
+      "DistFam": "神戸地方裁判所豊岡支部／神戸家庭裁判所豊岡支部",
+      "High": null,
+      "Addr": "兵庫県豊岡市京町12-81",
+      "Lat": 35.539928,
+      "Lon": 134.822678
+    },
+    {
+      "Court": "龍野簡易裁判所",
+      "DistFam": "神戸地方裁判所龍野支部／神戸家庭裁判所龍野支部",
+      "High": null,
+      "Addr": "兵庫県たつの市龍野町上霞城131",
+      "Lat": 34.868401,
+      "Lon": 134.545013
+    },
+    {
+      "Court": "五條簡易裁判所",
+      "DistFam": "奈良地方裁判所五條支部／奈良家庭裁判所五條支部",
+      "High": null,
+      "Addr": "奈良県五條市新町3-3-1",
+      "Lat": 34.350159,
+      "Lon": 135.690125
+    },
+    {
+      "Court": "吉野簡易裁判所",
+      "DistFam": "奈良家庭裁判所吉野出張所",
+      "High": null,
+      "Addr": "奈良県吉野郡大淀町下渕350-1",
+      "Lat": 34.381367,
+      "Lon": 135.785294
+    },
+    {
+      "Court": "奈良簡易裁判所",
+      "DistFam": "奈良地方裁判所／奈良家庭裁判所",
+      "High": null,
+      "Addr": "奈良県奈良市登大路町35",
+      "Lat": 34.685078,
+      "Lon": 135.82991
+    },
+    {
+      "Court": "宇陀簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "奈良県宇陀市大宇陀下茶2126",
+      "Lat": 34.483955,
+      "Lon": 135.932236
+    },
+    {
+      "Court": "葛城簡易裁判所",
+      "DistFam": "奈良地方裁判所葛城支部／奈良家庭裁判所葛城支部",
+      "High": null,
+      "Addr": "奈良県大和高田市大字大中101-4",
+      "Lat": 34.516048,
+      "Lon": 135.735733
+    },
+    {
+      "Court": "串本簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "和歌山県東牟婁郡串本町サンゴ台690-12",
+      "Lat": 33.483009,
+      "Lon": 135.783905
+    },
+    {
+      "Court": "和歌山簡易裁判所",
+      "DistFam": "和歌山地方裁判所／和歌山家庭裁判所",
+      "High": null,
+      "Addr": "和歌山県和歌山市二番丁1番地",
+      "Lat": 34.228172,
+      "Lon": 135.175858
+    },
+    {
+      "Court": "妙寺簡易裁判所",
+      "DistFam": "和歌山家庭裁判所妙寺出張所",
+      "High": null,
+      "Addr": "和歌山県伊都郡かつらぎ町妙寺111",
+      "Lat": 34.299847,
+      "Lon": 135.527023
+    },
+    {
+      "Court": "御坊簡易裁判所",
+      "DistFam": "和歌山地方裁判所御坊支部／和歌山家庭裁判所御坊支部",
+      "High": null,
+      "Addr": "和歌山県御坊市湯川町財部515-2",
+      "Lat": 33.900585,
+      "Lon": 135.152176
+    },
+    {
+      "Court": "新宮簡易裁判所",
+      "DistFam": "和歌山地方裁判所新宮支部／和歌山家庭裁判所新宮支部",
+      "High": null,
+      "Addr": "和歌山県新宮市千穂3丁目7番13号",
+      "Lat": 33.725288,
+      "Lon": 135.986725
+    },
+    {
+      "Court": "橋本簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "和歌山県橋本市東家5丁目2番4号",
+      "Lat": 34.314503,
+      "Lon": 135.608734
+    },
+    {
+      "Court": "湯浅簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "和歌山県有田郡湯浅町湯浅1794-31",
+      "Lat": 34.039066,
+      "Lon": 135.181396
+    },
+    {
+      "Court": "田辺簡易裁判所",
+      "DistFam": "和歌山地方裁判所田辺支部／和歌山家庭裁判所田辺支部",
+      "High": null,
+      "Addr": "和歌山県田辺市新屋敷町5",
+      "Lat": 33.727074,
+      "Lon": 135.378448
+    },
+    {
+      "Court": "倉吉簡易裁判所",
+      "DistFam": "鳥取地方裁判所倉吉支部／鳥取家庭裁判所倉吉支部",
+      "High": null,
+      "Addr": "鳥取県倉吉市仲ノ町734",
+      "Lat": 35.430527,
+      "Lon": 133.823654
+    },
+    {
+      "Court": "米子簡易裁判所",
+      "DistFam": "鳥取地方裁判所米子支部／鳥取家庭裁判所米子支部",
+      "High": null,
+      "Addr": "鳥取県米子市西町62",
+      "Lat": 35.429195,
+      "Lon": 133.327591
+    },
+    {
+      "Court": "鳥取簡易裁判所",
+      "DistFam": "鳥取地方裁判所／鳥取家庭裁判所",
+      "High": null,
+      "Addr": "鳥取県鳥取市東町2-223",
+      "Lat": 35.50536,
+      "Lon": 134.236343
+    },
+    {
+      "Court": "出雲簡易裁判所",
+      "DistFam": "松江地方裁判所出雲支部／松江家庭裁判所出雲支部",
+      "High": null,
+      "Addr": "島根県出雲市今市町797番地2",
+      "Lat": 35.364758,
+      "Lon": 132.753098
+    },
+    {
+      "Court": "川本簡易裁判所",
+      "DistFam": "松江家庭裁判所川本出張所",
+      "High": null,
+      "Addr": "島根県邑智郡川本町大字川本340番地",
+      "Lat": 34.99382,
+      "Lon": 132.497055
+    },
+    {
+      "Court": "松江簡易裁判所",
+      "DistFam": "松江地方裁判所／松江家庭裁判所",
+      "High": "広島高等裁判所松江支部",
+      "Addr": "島根県松江市母衣町68番地",
+      "Lat": 35.473946,
+      "Lon": 133.056244
+    },
+    {
+      "Court": "浜田簡易裁判所",
+      "DistFam": "松江地方裁判所浜田支部／松江家庭裁判所浜田支部",
+      "High": null,
+      "Addr": "島根県浜田市殿町980番地",
+      "Lat": 34.901447,
+      "Lon": 132.080734
+    },
+    {
+      "Court": "益田簡易裁判所",
+      "DistFam": "松江地方裁判所益田支部／松江家庭裁判所益田支部",
+      "High": null,
+      "Addr": "島根県益田市幸町6番60号",
+      "Lat": 34.671715,
+      "Lon": 131.85466
+    },
+    {
+      "Court": "西郷簡易裁判所",
+      "DistFam": "松江地方裁判所西郷支部／松江家庭裁判所西郷支部",
+      "High": null,
+      "Addr": "島根県隠岐郡隠岐の島町港町指向5番地1",
+      "Lat": 36.204723,
+      "Lon": 133.329391
+    },
+    {
+      "Court": "雲南簡易裁判所",
+      "DistFam": "松江家庭裁判所雲南出張所",
+      "High": null,
+      "Addr": "島根県雲南市木次町木次980番地",
+      "Lat": 35.286587,
+      "Lon": 132.903763
+    },
+    {
+      "Court": "中津簡易裁判所",
+      "DistFam": "大分地方裁判所中津支部／大分家庭裁判所中津支部",
+      "High": null,
+      "Addr": "大分県中津市二ノ丁1260",
+      "Lat": 33.598331,
+      "Lon": 131.188339
+    },
+    {
+      "Court": "佐伯簡易裁判所",
+      "DistFam": "大分地方裁判所佐伯支部／大分家庭裁判所佐伯支部",
+      "High": null,
+      "Addr": "大分県佐伯市野岡町2-13-2",
+      "Lat": 32.968353,
+      "Lon": 131.909607
+    },
+    {
+      "Court": "別府簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大分県別府市上田の湯町4-8",
+      "Lat": 33.276386,
+      "Lon": 131.494553
+    },
+    {
+      "Court": "大分簡易裁判所",
+      "DistFam": "大分地方裁判所／大分家庭裁判所",
+      "High": null,
+      "Addr": "大分県大分市荷揚町7-15",
+      "Lat": 33.242168,
+      "Lon": 131.608292
+    },
+    {
+      "Court": "日田簡易裁判所",
+      "DistFam": "大分地方裁判所日田支部／大分家庭裁判所日田支部",
+      "High": null,
+      "Addr": "大分県日田市淡窓1-1-53",
+      "Lat": 33.322098,
+      "Lon": 130.940536
+    },
+    {
+      "Court": "杵築簡易裁判所",
+      "DistFam": "大分地方裁判所杵築支部／大分家庭裁判所杵築支部",
+      "High": null,
+      "Addr": "大分県杵築市大字杵築1180",
+      "Lat": 33.419662,
+      "Lon": 131.610886
+    },
+    {
+      "Court": "竹田簡易裁判所",
+      "DistFam": "大分地方裁判所竹田支部／大分家庭裁判所竹田支部",
+      "High": null,
+      "Addr": "大分県竹田市大字竹田2065-1",
+      "Lat": 32.965721,
+      "Lon": 131.393631
+    },
+    {
+      "Court": "臼杵簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "大分県臼杵市大字臼杵101-2",
+      "Lat": 33.119797,
+      "Lon": 131.802139
+    },
+    {
+      "Court": "豊後高田簡易裁判所",
+      "DistFam": "大分家庭裁判所豊後高田出張所",
+      "High": null,
+      "Addr": "大分県豊後高田市玉津894",
+      "Lat": 33.56229,
+      "Lon": 131.446487
+    },
+    {
+      "Court": "宮崎簡易裁判所",
+      "DistFam": "宮崎地方裁判所／宮崎家庭裁判所",
+      "High": "福岡高等裁判所宮崎支部",
+      "Addr": "宮崎市旭2-3-13",
+      "Lat": 31.910446,
+      "Lon": 131.427826
+    },
+    {
+      "Court": "小林簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "宮崎県小林市真方112",
+      "Lat": 31.998121,
+      "Lon": 130.975739
+    },
+    {
+      "Court": "延岡簡易裁判所",
+      "DistFam": "宮崎地方裁判所延岡支部／宮崎家庭裁判所延岡支部",
+      "High": null,
+      "Addr": "宮崎県延岡市東本小路121",
+      "Lat": 32.581371,
+      "Lon": 131.664261
+    },
+    {
+      "Court": "日南簡易裁判所",
+      "DistFam": "宮崎地方裁判所日南支部／宮崎家庭裁判所日南支部",
+      "High": null,
+      "Addr": "宮崎県日南市飫肥3-6-1",
+      "Lat": 31.628922,
+      "Lon": 131.355087
+    },
+    {
+      "Court": "日向簡易裁判所",
+      "DistFam": "宮崎家庭裁判所日向出張所",
+      "High": null,
+      "Addr": "宮崎県日向市南町8-7",
+      "Lat": 32.421761,
+      "Lon": 131.623398
+    },
+    {
+      "Court": "西都簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "宮崎県西都市大字右松2519-1",
+      "Lat": 32.104797,
+      "Lon": 131.402878
+    },
+    {
+      "Court": "都城簡易裁判所",
+      "DistFam": "宮崎地方裁判所都城支部／宮崎家庭裁判所都城支部",
+      "High": null,
+      "Addr": "宮崎県都城市八幡町2-3",
+      "Lat": 31.721312,
+      "Lon": 131.059952
+    },
+    {
+      "Court": "高千穂簡易裁判所",
+      "DistFam": "宮崎家庭裁判所高千穂出張所",
+      "High": null,
+      "Addr": "宮崎県西臼杵郡高千穂町大字三田井118",
+      "Lat": 32.710316,
+      "Lon": 131.31073
+    },
+    {
+      "Court": "伊集院簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "鹿児島県日置市伊集院町下谷口1543",
+      "Lat": 31.623447,
+      "Lon": 130.395142
+    },
+    {
+      "Court": "出水簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "鹿児島県出水市緑町25-6",
+      "Lat": 32.089024,
+      "Lon": 130.350784
+    },
+    {
+      "Court": "加世田簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "鹿児島県南さつま市加世田地頭所町1-3",
+      "Lat": 31.423065,
+      "Lon": 130.323929
+    },
+    {
+      "Court": "加治木簡易裁判所",
+      "DistFam": "鹿児島地方裁判所加治木支部／鹿児島家庭裁判所加治木支部",
+      "High": null,
+      "Addr": "鹿児島県姶良市加治木町仮屋町95",
+      "Lat": 31.740564,
+      "Lon": 130.665817
+    },
+    {
+      "Court": "名瀬簡易裁判所",
+      "DistFam": "鹿児島地方裁判所名瀬支部／鹿児島家庭裁判所名瀬支部",
+      "High": null,
+      "Addr": "鹿児島県奄美市名瀬矢之脇町1-1",
+      "Lat": 28.382792,
+      "Lon": 129.492401
+    },
+    {
+      "Court": "大口簡易裁判所",
+      "DistFam": "鹿児島家庭裁判所大口出張所",
+      "High": null,
+      "Addr": "鹿児島県伊佐市大口里2235",
+      "Lat": 32.065868,
+      "Lon": 130.606018
+    },
+    {
+      "Court": "大隅簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "鹿児島県曽於市大隅町岩川6659-9",
+      "Lat": 31.59193,
+      "Lon": 131.002899
+    },
+    {
+      "Court": "屋久島簡易裁判所",
+      "DistFam": "鹿児島家庭裁判所屋久島出張所",
+      "High": null,
+      "Addr": "鹿児島県熊毛郡屋久島町宮之浦2445-18",
+      "Lat": 30.422194,
+      "Lon": 130.575714
+    },
+    {
+      "Court": "川内簡易裁判所",
+      "DistFam": "鹿児島地方裁判所川内支部／鹿児島家庭裁判所川内支部",
+      "High": null,
+      "Addr": "鹿児島県薩摩川内市花木町2-20",
+      "Lat": 31.821455,
+      "Lon": 130.29982
+    },
+    {
+      "Court": "徳之島簡易裁判所",
+      "DistFam": "鹿児島家庭裁判所徳之島出張所",
+      "High": null,
+      "Addr": "鹿児島県大島郡徳之島町亀津554-2",
+      "Lat": 27.737032,
+      "Lon": 129.015244
+    },
+    {
+      "Court": "指宿簡易裁判所",
+      "DistFam": "鹿児島家庭裁判所指宿出張所",
+      "High": null,
+      "Addr": "鹿児島県指宿市十町244",
+      "Lat": 31.253569,
+      "Lon": 130.628571
+    },
+    {
+      "Court": "甑島簡易裁判所",
+      "DistFam": null,
+      "High": null,
+      "Addr": "鹿児島県薩摩川内市上甑町中甑480-1",
+      "Lat": 31.836952,
+      "Lon": 129.867477
+    },
+    {
+      "Court": "知覧簡易裁判所",
+      "DistFam": "鹿児島地方裁判所知覧支部／鹿児島家庭裁判所知覧支部",
+      "High": null,
+      "Addr": "鹿児島県南九州市知覧町郡6196-1",
+      "Lat": 31.377565,
+      "Lon": 130.442429
+    },
+    {
+      "Court": "種子島簡易裁判所",
+      "DistFam": "鹿児島家庭裁判所種子島出張所",
+      "High": null,
+      "Addr": "鹿児島県西之表市西之表16275-12",
+      "Lat": 30.719992,
+      "Lon": 130.982361
+    },
+    {
+      "Court": "鹿児島簡易裁判所",
+      "DistFam": "鹿児島地方裁判所／鹿児島家庭裁判所",
+      "High": null,
+      "Addr": "鹿児島県鹿児島市山下町13-47",
+      "Lat": 31.597607,
+      "Lon": 130.557083
+    },
+    {
+      "Court": "鹿屋簡易裁判所",
+      "DistFam": "鹿児島地方裁判所鹿屋支部／鹿児島家庭裁判所鹿屋支部",
+      "High": null,
+      "Addr": "鹿児島県鹿屋市打馬1-2-14",
+      "Lat": 31.39308,
+      "Lon": 130.853546
+    },
+    {
+      "Court": "名護簡易裁判所",
+      "DistFam": "那覇地方裁判所名護支部／那覇家庭裁判所名護支部",
+      "High": null,
+      "Addr": "沖縄県名護市字宮里451-3",
+      "Lat": 26.594503,
+      "Lon": 127.96579
+    },
+    {
+      "Court": "平良簡易裁判所",
+      "DistFam": "那覇地方裁判所平良支部／那覇家庭裁判所平良支部",
+      "High": null,
+      "Addr": "沖縄県宮古島市平良字西里345",
+      "Lat": 24.804722,
+      "Lon": 125.283112
+    },
+    {
+      "Court": "沖縄簡易裁判所",
+      "DistFam": "那覇地方裁判所沖縄支部／那覇家庭裁判所沖縄支部",
+      "High": null,
+      "Addr": "沖縄県沖縄市知花6-7-7",
+      "Lat": 26.360485,
+      "Lon": 127.819748
+    },
+    {
+      "Court": "石垣簡易裁判所",
+      "DistFam": "那覇地方裁判所石垣支部／那覇家庭裁判所石垣支部",
+      "High": null,
+      "Addr": "沖縄県石垣市字登野城55",
+      "Lat": 24.336464,
+      "Lon": 124.16082
+    },
+    {
+      "Court": "那覇簡易裁判所",
+      "DistFam": "那覇地方裁判所／那覇家庭裁判所",
+      "High": "福岡高等裁判所那覇支部",
+      "Addr": "沖縄県那覇市樋川1-14-1",
+      "Lat": 26.208338,
+      "Lon": 127.686035
+    }
+  ]
+}

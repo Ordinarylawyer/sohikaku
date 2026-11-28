@@ -1,0 +1,8 @@
+{
+  "name": "sohikaku",
+  "private": true,
+  "description": "訴訟費用額計算機（Web 版）。ビルド不要の静的サイト。依存パッケージなし",
+  "scripts": {
+    "test": "node tests/run.mjs"
+  }
+}

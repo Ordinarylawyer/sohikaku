@@ -1,0 +1,32 @@
+name: 誤りの報告
+description: 計算結果・単価・簡易裁判所・書面の文言などの誤りを報告する
+title: "[報告] "
+labels: ["報告"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        アプリの「誤りの報告・改善の提案」から開くと、画面（STEP）と単価マスタの版が入った状態になります。
+        **事件の当事者名・住所・事件番号など、個別の事件を特定できる情報は書かないでください。** 計算例を示すときは、架空の事例に置き換えてください。
+  - type: textarea
+    id: target
+    attributes:
+      label: 対象
+      description: 画面（STEP）・単価の項目・簡易裁判所名・書面の箇所など
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 誤りの内容と、正しいと考える内容
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 根拠
+      description: 法令（民訴費用法・同規則など）・書実研15号の頁・告示などと、確認した日
+  - type: input
+    id: note
+    attributes:
+      label: 補足（任意）
